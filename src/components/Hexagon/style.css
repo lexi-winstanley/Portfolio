@@ -1,0 +1,107 @@
+/*.hexagonGrid {*/
+    /*background-color: pink;*/
+    /*position: relative;*/
+    /*width: 60%;*/
+    /*margin: 0 auto;*/
+    /*padding: 0;*/
+/*}*/
+/*.hexagonGrid:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*clear: both;*/
+/*}*/
+/*.hexagonGrid .outerHexagonMask:nth-child(3n+2) {*/
+    /*margin: 0 13.9%;*/
+/*}*/
+/*.hexagonGrid .outerHexagonMask:nth-child(6n+4),*/
+/*.hexagonGrid .outerHexagonMask:nth-child(6n+5),*/
+/*.hexagonGrid .outerHexagonMask:nth-child(6n+6) {*/
+    /*margin-top: -6.9285714285%;*/
+    /*margin-bottom: -6.9285714285%;*/
+    /*transform: translateX(50%) rotate(-30deg) skewY(30deg);*/
+/*}*/
+/*.hexagonGrid .outerHexagonMask:nth-child(6n+4) {*/
+    /*margin-left: 0.5%;*/
+/*}*/
+/*.outerHexagonMask {*/
+    /*list-style-type: none;*/
+    /*position: relative;*/
+    /*float: left;*/
+    /*width: 27.85714285714286%;*/
+    /*padding: 0 0 32.16760145166612% 0;*/
+    /*!*width: 32.16760145166612%;*!*/
+    /*!*padding: 0 0 27.85714285714286% 0;*!*/
+    /*transform: rotate(-30deg) skewY(30deg);*/
+    /*background: #fd005f;*/
+    /*overflow: hidden;*/
+    /*visibility: hidden;*/
+/*}*/
+/*.innerHexagonMask {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: #fdbf00;*/
+    /*transform: skewY(-30deg) rotate(60deg);*/
+    /*visibility: visible;*/
+    /*overflow: hidden;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+* {
+    box-sizing: border-box;
+}
+.hexagonGrid {
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hexagonContainer {
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: .4rem;
+}
+.hexagonGrid .hexagonContainer:nth-child(2) {
+    margin: 0 16.666666667%;
+}
+.hexagonGrid .hexagonContainer:nth-child(3n+5) {
+    margin: 0 16.666666667% 0 -8.33333%;
+}
+/*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*/
+.hexagonGrid .hexagonContainer:nth-child(3n+4) {
+    margin: -14.43375667% 0 0 -8.33333%;
+}
+.outerHexagonMask {
+    transform: rotate(-30deg) skewY(30deg);
+    background: #fd005f;
+    position: relative;
+    width: 86.60254%;
+    padding: 0 0 100% 0;
+    overflow: hidden;
+    visibility: hidden;
+    margin: -6.69873% 0;
+}
+.innerHexagonMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fdbf00;
+    transform: skewY(-30deg) rotate(60deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}
+.hexChild {
+    transform: skewY(0deg) rotate(-30deg);
+}
