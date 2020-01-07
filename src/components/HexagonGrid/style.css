@@ -1,0 +1,17 @@
+.hexagonGrid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hexagonGrid .hexagonContainer:nth-child(2) {
+    margin: 0 16.666666667%;
+}
+.hexagonGrid .hexagonContainer:nth-child(3n+5) {
+    margin: 0 16.666666667% 0 -8.33333%;
+}
+/*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*/
+.hexagonGrid .hexagonContainer:nth-child(3n+4) {
+    margin: -14.43375667% 0 0 -8.33333%;
+}

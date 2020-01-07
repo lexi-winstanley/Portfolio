@@ -2,81 +2,22 @@ import React from 'react';
 import './style.css';
 
 const Hexagon = props => {
+    const color = props.background;
+    const styles = {
+        importedColor: {
+            background: color
+        }
+    };
     return (
-        <div className="hexagonGrid">
-            <div className="hexagonContainer">
+        <div className="hexagonContainer">
             <div className="outerHexagonMask">
-                <div className="innerHexagonMask">
-                    <div className="hexChild">
-                        <h3>Hexagon</h3>
+                <div className="innerHexagonMask" style={styles.importedColor}>
+                    <div id={props.id} className="hexChild">
+                        <h3>{props.title}</h3>
+                        <img src={props.imageSrc} alt={props.imageAlt}/>
                     </div>
                 </div>
             </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hexagonContainer">
-                <div className="outerHexagonMask">
-                    <div className="innerHexagonMask">
-                        <div className="hexChild">
-                            <h3>Hexagon</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     )
 };

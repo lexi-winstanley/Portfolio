@@ -4,7 +4,7 @@ import './App.css';
 import Wrapper from './components/Wrapper';
 import Header from './components/Header';
 import FlexContainer from './components/FlexContainer';
-import Hexagon from './components/Hexagon';
+import HexagonGrid from './components/HexagonGrid';
 
 class App extends Component {
   state = {
@@ -14,7 +14,7 @@ class App extends Component {
     let content;
     switch (this.state.content) {
       case 'home':
-        content = <Hexagon/>
+        content = <HexagonGrid/>
         break;
       default:
         console.log("ERROR");
