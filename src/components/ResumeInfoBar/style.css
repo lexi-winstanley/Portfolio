@@ -1,0 +1,6 @@
+.resumeInfoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #0F0F0D;
+}

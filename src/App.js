@@ -5,7 +5,8 @@ import Wrapper from './components/Wrapper';
 import Header from './components/Header';
 import FlexContainer from './components/FlexContainer';
 import HexagonGrid from './components/HexagonGrid';
-
+import FloatingBlurb from './components/FloatingBlurb';
+import ResumeInfoBar from './components/ResumeInfoBar';
 class App extends Component {
   state = {
     content: 'home'
@@ -14,15 +15,21 @@ class App extends Component {
     let content;
     switch (this.state.content) {
       case 'home':
-        content = <HexagonGrid/>
+        content = (
+            <FlexContainer>
+              <HexagonGrid/>
+              <FloatingBlurb/>
+            </FlexContainer>
+            );
         break;
       default:
-        console.log("ERROR");
+        console.log('ERROR');
     }
     return (
         <Wrapper>
           <Header/>
-          <FlexContainer>{content}</FlexContainer>
+          {content}
+          <ResumeInfoBar/>
         </Wrapper>
     );
   }

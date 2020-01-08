@@ -5,9 +5,7 @@ import NavigationMenu from '../NavigationMenu';
 const Header = props => {
     return (
         <div className="header">
-            <p>Header</p>
             <NavigationMenu/>
-            {props.children}
         </div>
     )
 };

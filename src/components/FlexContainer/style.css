@@ -1,6 +1,7 @@
 .flexContainer {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
-    background-color: dodgerblue;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
