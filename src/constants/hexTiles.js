@@ -46,8 +46,8 @@ export default {
             id: '7',
             imageSrc: 'images/gifGenerator.svg',
             imageAlt: 'gif generator icon',
-            background: '#45bce5',
-            title: 'Eat Da Burger 7'
+            background: '#21202c',
+            title: 'GIF Generator'
         },
         {
             id: '8',
@@ -89,7 +89,7 @@ export default {
             imageSrc: '',
             imageAlt: '',
             background: '#fd005f',
-            title: ''
+            title: 'Something Borrowed'
         },
         {
             id: '14',
@@ -121,31 +121,31 @@ export default {
         },
         {
             id: '18',
-            imageSrc: 'images/burger.svg',
-            imageAlt: 'double decker burger icon',
+            imageSrc: 'images/bri-spy.svg',
+            imageAlt: 'bri-spy icon',
             background: '#45bce5',
-            title: 'Eat Da Burger 12'
+            title: 'bri-SPY'
         },
         {
             id: '19',
             imageSrc: '',
             imageAlt: '',
-            background: '#fd005f',
-            title: ''
+            background: '#0072bb',
+            title: 'Urban Prairie Homes'
         },
         {
             id: '20',
-            imageSrc: 'images/greenCrystal.svg',
-            imageAlt: 'green crystal icon',
+            imageSrc: 'images/sawblade.svg',
+            imageAlt: 'saw blade icon',
             background: 'rgba(234, 162, 4, .5)',
-            title: 'Crystal Counting'
+            title: 'Woodworking Trivia'
         },
         {
             id: '21',
-            imageSrc: 'images/burger.svg',
-            imageAlt: 'double decker burger icon',
-            background: '#45bce5',
-            title: 'Eat Da Burger 12'
+            imageSrc: 'images/pawPrint.svg',
+            imageAlt: 'dog paw print icon',
+            background: '#b5ca30',
+            title: 'Dog Breed Guessing Game'
         }
     ]
 }

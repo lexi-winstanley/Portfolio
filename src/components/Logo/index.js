@@ -3,7 +3,9 @@ import './style.css';
 
 const Logo = props => {
     return (
-        <li className="menuLogo"><img className="navigationLogo" src="images/logo.svg" alt="logo showing white capital 'L' with thin white border"/></li>
+        <div className="logoContainer">
+            <img className="navigationLogo" src="images/LogoBlack.svg" alt="logo showing white capital 'L' with thin white border"/>
+        </div>
     )
 };
 
