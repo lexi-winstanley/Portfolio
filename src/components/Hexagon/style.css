@@ -8,7 +8,6 @@
 }
 .outerHexagonMask {
     transform: rotate(-30deg) skewY(30deg);
-    background: #fd005f;
     position: relative;
     width: 86.60254%;
     padding: 0 0 100% 0;
@@ -22,7 +21,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fdbf00;
     transform: skewY(-30deg) rotate(60deg);
     display: flex;
     justify-content: center;
@@ -42,6 +40,8 @@
 .hexTitle {
     margin: 0;
     text-align: center;
+    opacity: 0;
+    animation: fade2 20s ease-in-out infinite;
 }
 .hexImageContainer {
     position: absolute;
@@ -54,8 +54,44 @@
 .hexImage {
     max-height: 100%;
     max-width: 100%;
+    opacity: 1;
+    animation: fade 20s ease-in-out infinite;
 }
 .hexImage:hover {
     display: none;
-    /*image should get bigger than dissolve whenever hover in hexagon*/
+    /*image should get bigger when hover in hexagon, should slowly animate between words and images*/
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
