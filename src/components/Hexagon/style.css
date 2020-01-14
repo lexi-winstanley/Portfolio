@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     visibility: visible;
+    overflow: hidden;
 }
 .hexChild {
     transform: skewY(0deg) rotate(-30deg);
@@ -41,7 +42,7 @@
     margin: 0;
     text-align: center;
     opacity: 0;
-    animation: fade2 20s ease-in-out infinite;
+    animation: crossfade 24s 12s ease-in-out infinite;
 }
 .hexImageContainer {
     position: absolute;
@@ -55,43 +56,40 @@
     max-height: 100%;
     max-width: 100%;
     opacity: 1;
-    animation: fade 20s ease-in-out infinite;
+    animation: crossfade 24s ease-in-out infinite;
 }
-.hexImage:hover {
-    display: none;
+.hexImageContainer:hover .hexImage {
+    opacity: 1;
+    transform: scale(1.75) translate(15px,15px);
+    transition: transform 2s;
     /*image should get bigger when hover in hexagon, should slowly animate between words and images*/
 }
-@keyframes fade {
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
+
+.hexagonContainer:nth-of-type(2n) .hexTitle {
+    opacity: 1;
+    animation-delay: 0s;
 }
-@keyframes fade2 {
+.hexagonContainer:nth-of-type(2n) .hexImage {
+    opacity: 0;
+    animation-delay: 12s
+}
+
+@keyframes crossfade {
     0% {
-        opacity: 0;
+        opacity: 1;
     }
-    25% {
+    41.66667% {
         opacity: 1;
     }
     50% {
         opacity: 0;
     }
-    75% {
+    91.66667% {
         opacity: 0;
     }
     100% {
-        opacity: 0;
+        opacity: 1;
     }
 }
+
+/*desired behavior: on hover over hexagon, both image and title visible somehow*/

@@ -19,10 +19,10 @@ class App extends Component {
       case 'home':
         content = (
             <>
-            <Header/>
-            <FlexContainer>
-              <HexagonGrid/>
-            </FlexContainer>
+                <Header/>
+                <FlexContainer>
+                    <HexagonGrid/>
+                </FlexContainer>
             </>
             );
         break;
@@ -31,11 +31,7 @@ class App extends Component {
     }
     return (
         <Wrapper>
-
-
-
-                    {content}
-
+            {content}
             <ResumeInfoBar/>
         </Wrapper>
     );
