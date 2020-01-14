@@ -5,10 +5,7 @@ import Wrapper from './components/Wrapper';
 import Header from './components/Header';
 import FlexContainer from './components/FlexContainer';
 import HexagonGrid from './components/HexagonGrid';
-import IntroStatement from './components/IntroStatement';
 import ResumeInfoBar from './components/ResumeInfoBar';
-import FlexColumnContainer from "./components/FlexColumnContainer";
-import FlexColumns from "./components/FlexColumns";
 class App extends Component {
   state = {
     content: 'home'
