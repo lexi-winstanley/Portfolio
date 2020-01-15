@@ -7,7 +7,6 @@
     z-index: 10;
     flex-wrap: wrap;
     margin: 0;
-    padding: .5rem;
     /*height: 100vh; should take up full screen when page first loads, wait then transition back to under menu, when menu is hovered text should appear, will need alternate solution for mobile*/
 }
 .menuContainer {
