@@ -11,6 +11,7 @@ const HexagonGrid = props => {
             imageSrc={hexTile.imageSrc}
             imageAlt={hexTile.imageAlt}
             background={hexTile.background}
+            textColor={hexTile.textColor}
             title={hexTile.title}
         />
     ));

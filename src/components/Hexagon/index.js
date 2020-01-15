@@ -2,10 +2,12 @@ import React from 'react';
 import './style.css';
 
 const Hexagon = props => {
-    const color = props.background;
     const styles = {
         importedColor: {
-            background: color
+            backgroundColor: props.background
+        },
+        importedTextColor: {
+            color: props.textColor
         }
     };
     return (
@@ -13,7 +15,9 @@ const Hexagon = props => {
             <div className="outerHexagonMask">
                 <div className="innerHexagonMask" style={styles.importedColor}>
                     <div id={props.id} className="hexChild">
-                        <h3 className="hexTitle">{props.title}</h3>
+                        <h3 className="hexTitle" style={styles.importedTextColor}>
+                            {props.title}
+                        </h3>
                         <div className="hexImageContainer">
                             <img className="hexImage" src={props.imageSrc} alt={props.imageAlt}/>
                         </div>
