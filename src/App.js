@@ -17,21 +17,21 @@ class App extends Component {
         <Wrapper>
             <Header/>
             <Switch>
-                <Route exact path='/'>
+                <Route exact path={process.env.PUBLIC_URL + '/'}>
                         <FlexContainer>
                             <HexagonGrid/>
                         </FlexContainer>
                 </Route>
-                <Route path='/about'>
+                <Route path={process.env.PUBLIC_URL + '/about'}>
                     <PageInfoSection pageTitle='About Lexi Winstanley' pageInfo='Motivated and energetic Front End Web Developer with Certificate in Full Stack Web Development from University of Washington Professional & Continuing Education, strong skills in HTML, CSS and JavaScript and additional experience with React, React Native, MySQL and MongoDB. Leveraging creative problem solving, productive collaboration and a passion for accessibility gained from a background in health care to create impactful web experiences for all users. Detail-oriented individual known for delivering responsive, cross browser compatible applications that balance performance and design with overall user experience. Recognized in collaborative settings as a creative, hardworking teammate motivated to meet all deliverables and requirements while ensuring a positive experience for others. '/>
                 </Route>
-                <Route path='/projects'>
+                <Route path={process.env.PUBLIC_URL + '/projects'}>
                     <ResumeInfoBar/>
                 </Route>
-                <Route path='/contact'>
+                <Route path={process.env.PUBLIC_URL + '/contact'}>
                     <ResumeInfoBar/>
                 </Route>
-                <Route path='/:project'>
+                <Route path={process.env.PUBLIC_URL + '/:project'}>
                     <ProjectPage/>
                 </Route>
             </Switch>
