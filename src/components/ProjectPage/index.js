@@ -35,7 +35,7 @@ const ProjectPage = props => {
     };
 
         return (
-            <div className="projectContainer" style={styles.importedColor}>
+            <div className="pageContainer" style={styles.importedColor}>
                 <div className="pageBanner" >
                     <Link to='/' className="closeButton">
                         <div className="arrowBack" style={styles.importedArrowColors}></div>
