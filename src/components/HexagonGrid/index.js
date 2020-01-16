@@ -13,81 +13,12 @@ const HexagonGrid = props => {
             background={hexTile.background}
             textColor={hexTile.textColor}
             title={hexTile.title}
+            link={hexTile.path}
         />
     ));
     return (
         <div className="hexagonGrid">
             {content}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
-            {/*<div className="hexagonContainer">*/}
-                {/*<div className="outerHexagonMask">*/}
-                    {/*<div className="innerHexagonMask" >*/}
-                        {/*<div id={hexTiles.hexTiles[0].id} className="hexChild">*/}
-                            {/*<h3>{hexTiles.hexTiles[0].title}</h3>*/}
-                            {/*<img src={hexTiles.hexTiles[0].imageSrc} alt={hexTiles.hexTiles[0].imageAlt}/>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
         </div>
     )
 };

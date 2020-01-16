@@ -3,7 +3,7 @@
     align-self: flex-start;
     display: none;
 }
-h2 {
+.textTitle {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;

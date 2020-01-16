@@ -7,7 +7,8 @@ export default {
             imageAlt: '',
             background: '#FC354C',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             //cutoff
@@ -16,7 +17,8 @@ export default {
             imageAlt: '',
             background: '#041232',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             //cutoff
@@ -25,7 +27,8 @@ export default {
             imageAlt: '',
             background: '#0072bb',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             //cutoff
@@ -34,7 +37,8 @@ export default {
             imageAlt: '',
             background: '#cbc5ef',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '5',
@@ -42,7 +46,8 @@ export default {
             imageAlt: '',
             background: '#0cb2ba',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '6',
@@ -50,7 +55,8 @@ export default {
             imageAlt: 'double decker burger icon',
             background: '#45bce5',
             textColor: '#f8f7f7',
-            title: 'Eat Da Burger'
+            title: 'Eat Da Burger',
+            path: '/eat-da-burger'
         },
         {
             //cutoff
@@ -59,7 +65,8 @@ export default {
             imageAlt: '',
             background: '#FC354C',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '8',
@@ -67,7 +74,8 @@ export default {
             imageAlt: 'dog paw print icon',
             background: '#b5ca30',
             textColor: '#0F0F0D',
-            title: 'Dog Breed Guessing Game'
+            title: 'Dog Breed Guessing Game',
+            path: '/'
         },
         {
             id: '9',
@@ -75,7 +83,8 @@ export default {
             imageAlt: '',
             background: '#680a4d',
             textColor: '#f8f7f7',
-            title: 'Pack It!'
+            title: 'Pack It!',
+            path: '/'
         },
         {
             id: '10',
@@ -83,7 +92,8 @@ export default {
             imageAlt: 'gif generator icon',
             background: '#041232',
             textColor: '#f8f7f7',
-            title: 'GIF Generator'
+            title: 'GIF Generator',
+            path: '/'
         },
         {
             //cutoff
@@ -92,7 +102,8 @@ export default {
             imageAlt: '',
             background: '#041232',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '12',
@@ -100,7 +111,8 @@ export default {
             imageAlt: '',
             background: '#0072bb',
             textColor: '#f8f7f7',
-            title: 'Urban Prairie Homes'
+            title: 'Urban Prairie Homes',
+            path: '/'
         },
         {
             id: '13',
@@ -108,7 +120,8 @@ export default {
             imageAlt: '',
             background: '#b5ca30',
             textColor: '#0F0F0D',
-            title: 'Swiss Memory Game'
+            title: 'Swiss Memory Game',
+            path: '/'
         },
         {
             //cutoff
@@ -117,7 +130,8 @@ export default {
             imageAlt: '',
             background: '#cbc5ef',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '15',
@@ -125,7 +139,8 @@ export default {
             imageAlt: 'friend finder icon',
             background: '#680a4d',
             textColor: '#f8f7f7',
-            title: 'Friend Finder'
+            title: 'Friend Finder',
+            path: '/'
         },
         {
             id: '16',
@@ -133,7 +148,8 @@ export default {
             imageAlt: '',
             background: '#cbc5ef',
             textColor: '#0F0F0D',
-            title: 'Three Score Development'
+            title: 'Three Score Development',
+            path: '/'
         },
         {
             id: '17',
@@ -141,7 +157,8 @@ export default {
             imageAlt: 'green crystal icon',
             background: '#FC354C',
             textColor: '#f8f7f7',
-            title: 'Crystal Counting'
+            title: 'Crystal Counting',
+            path: '/'
         },
         {
             //cutoff
@@ -150,7 +167,8 @@ export default {
             imageAlt: '',
             background: '#0cb2ba',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '19',
@@ -158,7 +176,8 @@ export default {
             imageAlt: 'bri-spy icon',
             background: '#FC354C',
             textColor: '#f8f7f7',
-            title: 'bri-SPY'
+            title: 'bri-SPY',
+            path: '/'
         },
         {
             id: '20',
@@ -166,7 +185,8 @@ export default {
             imageAlt: '',
             background: '#041232',
             textColor: '#f8f7f7',
-            title: 'Chapter Too Travel Blog'
+            title: 'Chapter Too Travel Blog',
+            path: '/'
         },
         {
             //cutoff
@@ -175,7 +195,8 @@ export default {
             imageAlt: '',
             background: '#0cb2ba',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '22',
@@ -183,7 +204,8 @@ export default {
             imageAlt: '',
             background: '#cbc5ef',
             textColor: '#0F0F0D',
-            title: 'Train Schedule'
+            title: 'Train Schedule',
+            path: '/'
         },
         {
             id: '23',
@@ -191,7 +213,8 @@ export default {
             imageAlt: '',
             background: '#45bce5',
             textColor: '#f8f7f7',
-            title: 'Something Borrowed'
+            title: 'Something Borrowed',
+            path: '/'
         },
         {
             id: '24',
@@ -199,7 +222,8 @@ export default {
             imageAlt: '',
             background: '#0072bb',
             textColor: '#f8f7f7',
-            title: 'Three Score Rub'
+            title: 'Three Score Rub',
+            path: '/'
         },
         {
             //cutoff
@@ -208,7 +232,8 @@ export default {
             imageAlt: '',
             background: '#b5ca30',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             id: '26',
@@ -216,7 +241,8 @@ export default {
             imageAlt: 'saw blade icon',
             background: '#0cb2ba',
             textColor: '#f8f7f7',
-            title: 'Woodworking Trivia'
+            title: 'Woodworking Trivia',
+            path: '/'
         },
         {
             id: '27',
@@ -224,7 +250,8 @@ export default {
             imageAlt: 'crystal ball icon',
             background: '#680a4d',
             textColor: '#f8f7f7',
-            title: 'Letter Guessing Game'
+            title: 'Letter Guessing Game',
+            path: '/'
         },
         {
             //cutoff
@@ -233,7 +260,8 @@ export default {
             imageAlt: '',
             background: '#041232',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             //cutoff
@@ -242,7 +270,8 @@ export default {
             imageAlt: '',
             background: '#FC354C',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             //cutoff
@@ -251,7 +280,8 @@ export default {
             imageAlt: '',
             background: '#b5ca30',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         },
         {
             //cutoff
@@ -260,7 +290,8 @@ export default {
             imageAlt: '',
             background: '#45bce5',
             textColor: '#f8f7f7',
-            title: ''
+            title: '',
+            path: '/'
         }
         //end on multiple of 7n+3 or 7n
     ]

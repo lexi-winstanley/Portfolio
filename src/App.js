@@ -5,31 +5,35 @@ import Header from './components/Header';
 import FlexContainer from './components/FlexContainer';
 import HexagonGrid from './components/HexagonGrid';
 import ResumeInfoBar from './components/ResumeInfoBar';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import ProjectPage from './components/ProjectPage';
 class App extends Component {
-  state = {
-    content: 'home'
-  };
   render() {
-    let content;
-    switch (this.state.content) {
-      case 'home':
-        content = (
-            <>
-                <Header/>
-                <FlexContainer>
-                    <HexagonGrid/>
-                </FlexContainer>
-            </>
-            );
-        break;
-      default:
-        console.log('ERROR');
-    }
     return (
+        <Router>
         <Wrapper>
-            {content}
-            <ResumeInfoBar/>
+            <Header/>
+            <Switch>
+                <Route exact path='/'>
+                        <FlexContainer>
+                            <HexagonGrid/>
+                        </FlexContainer>
+                </Route>
+                <Route path='/about'>
+                    <ResumeInfoBar/>
+                </Route>
+                <Route path='/projects'>
+                    <ResumeInfoBar/>
+                </Route>
+                <Route path='/contact'>
+                    <ResumeInfoBar/>
+                </Route>
+                <Route path='/:project'>
+                    <ProjectPage/>
+                </Route>
+            </Switch>
         </Wrapper>
+        </Router>
     );
   }
 }

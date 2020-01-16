@@ -7,7 +7,7 @@ const NavigationMenu = props => {
         <ul className="navigationMenu">
             <MenuItem linkTitle='Home' linkPath='/'/>
             <MenuItem linkTitle='About' linkPath='/about'/>
-            <MenuItem linkTitle='Work' linkPath='/work'/>
+            <MenuItem linkTitle='Projects' linkPath='/projects'/>
             <MenuItem linkTitle='Contact' linkPath='/contact'/>
             {props.children}
         </ul>

@@ -1,0 +1,66 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 3.5rem;
+}
+.pageBanner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .5rem;
+}
+.closeButton {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.arrowBack {
+    width: 0;
+    height: 0;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-right: 1rem solid;
+}
+.arrowText {
+    padding: .5rem;
+}
+.closeButton:hover .arrowBack {
+    transform: scale(1.35);
+    transition: transform 2s;
+}
+.closeButton:hover .arrowText {
+    transform: scale(1.3);
+    transition: transform 2s;
+}
+.projectTitle {
+    font-size: 2rem;
+    margin: 0;
+    padding: .25rem 1rem;
+}
+.projectSubheading {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: .25rem 0;
+}
+.projectText {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 0 .5rem 0;
+}
+.projectExternalLink a {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: .25rem 0;
+}
+.projectImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectImage {
+    width: 50%;
+    margin: 0 auto;
+}
