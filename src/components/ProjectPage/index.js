@@ -45,14 +45,14 @@ const ProjectPage = props => {
                 </div>
                 <FlexColumnContainer>
                     <EqualColumn>
-                        <h2 className="projectSubheading">Description: </h2>
-                        <p className="projectText">{currentProject.description}</p>
-                        <h2 className="projectSubheading">Organization: </h2>
-                        <p className="projectText">{currentProject.organization}</p>
-                        <h2 className="projectSubheading">Technologies: </h2>
-                        <p className="projectText">{currentProject.technologies}</p>
-                        <h2 className="projectExternalLink"><a href={currentProject.githubLink}>Github Repository</a></h2>
-                        <h2 className="projectExternalLink"><a href={currentProject.projectLink}>Live Project</a></h2>
+                        <h2 className="projectSubheading" style={styles.importedTextColor}>Description: </h2>
+                        <p className="projectText" style={styles.importedTextColor}>{currentProject.description}</p>
+                        <h2 className="projectSubheading" style={styles.importedTextColor}>Organization: </h2>
+                        <p className="projectText" style={styles.importedTextColor}>{currentProject.organization}</p>
+                        <h2 className="projectSubheading" style={styles.importedTextColor}>Technologies: </h2>
+                        <p className="projectText" style={styles.importedTextColor}>{currentProject.technologies}</p>
+                        <h2 className="projectExternalLink" style={styles.importedTextColor}><a href={currentProject.githubLink} style={styles.importedTextColor}>Github Repository</a></h2>
+                        <h2 className="projectExternalLink" style={styles.importedTextColor}><a href={currentProject.projectLink} style={styles.importedTextColor}>Live Project</a></h2>
                     </EqualColumn>
                     <EqualColumn>
                         <div className="projectImageContainer">

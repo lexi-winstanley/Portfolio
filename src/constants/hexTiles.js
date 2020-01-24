@@ -54,7 +54,7 @@ export default {
             imageSrc: 'images/burger.svg',
             imageAlt: 'double decker burger icon',
             background: '#45bce5',
-            textColor: '#f8f7f7',
+            textColor: '#0F0F0D',
             title: 'Eat Da Burger',
             path: '/eat-da-burger'
         },
@@ -74,8 +74,8 @@ export default {
             imageAlt: 'dog paw print icon',
             background: '#b5ca30',
             textColor: '#0F0F0D',
-            title: 'Dog Breed Guessing Game',
-            path: '/'
+            title: 'Guess that Dog Breed Game',
+            path: '/guess-that-dog-breed'
         },
         {
             id: '9',
@@ -84,7 +84,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Pack It!',
-            path: '/'
+            path: '/pack-it'
         },
         {
             id: '10',
@@ -93,7 +93,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'GIF Generator',
-            path: '/'
+            path: '/gif-generator'
         },
         {
             //cutoff
@@ -112,7 +112,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Urban Prairie Homes',
-            path: '/'
+            path: '/urban-prairie-homes'
         },
         {
             id: '13',
@@ -121,7 +121,7 @@ export default {
             background: '#b5ca30',
             textColor: '#0F0F0D',
             title: 'Swiss Memory Game',
-            path: '/'
+            path: '/swiss-memory-game'
         },
         {
             //cutoff
@@ -139,8 +139,8 @@ export default {
             imageAlt: 'friend finder icon',
             background: '#680a4d',
             textColor: '#f8f7f7',
-            title: 'Friend Finder',
-            path: '/'
+            title: 'Friend Finder Survey',
+            path: '/friend-finder'
         },
         {
             id: '16',
@@ -149,7 +149,7 @@ export default {
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Three Score Development',
-            path: '/'
+            path: '/three-score-development'
         },
         {
             id: '17',
@@ -158,7 +158,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'Crystal Counting',
-            path: '/'
+            path: '/crystal-counting'
         },
         {
             //cutoff
@@ -177,7 +177,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'bri-SPY',
-            path: '/'
+            path: '/bri-spy'
         },
         {
             id: '20',
@@ -186,7 +186,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'Chapter Too Travel Blog',
-            path: '/'
+            path: '/chapter-too'
         },
         {
             //cutoff
@@ -205,16 +205,16 @@ export default {
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Train Schedule',
-            path: '/'
+            path: '/train-schedule'
         },
         {
             id: '23',
             imageSrc: 'images/somethingBorrowed.svg',
             imageAlt: '',
             background: '#45bce5',
-            textColor: '#f8f7f7',
+            textColor: '#0F0F0D',
             title: 'Something Borrowed',
-            path: '/'
+            path: '/something-borrowed'
         },
         {
             id: '24',
@@ -223,7 +223,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Three Score Rub',
-            path: '/'
+            path: '/three-score-rub'
         },
         {
             //cutoff
@@ -242,7 +242,7 @@ export default {
             background: '#0cb2ba',
             textColor: '#f8f7f7',
             title: 'Woodworking Trivia',
-            path: '/'
+            path: '/woodworking-trivia'
         },
         {
             id: '27',
@@ -251,7 +251,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Letter Guessing Game',
-            path: '/'
+            path: '/letter-guessing-game'
         },
         {
             //cutoff
@@ -289,7 +289,7 @@ export default {
             imageSrc: '',
             imageAlt: '',
             background: '#45bce5',
-            textColor: '#f8f7f7',
+            textColor: '#0F0F0D',
             title: '',
             path: '/'
         }
