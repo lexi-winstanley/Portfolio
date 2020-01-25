@@ -25,6 +25,4 @@ yarn-error.log*
 .idea
 serviceWorker.js
 setupTests.js
-package.json
-package-lock.json
 portfolioUpdate.iml
