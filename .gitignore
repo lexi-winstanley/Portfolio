@@ -23,6 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
-serviceWorker.js
-setupTests.js
 portfolioUpdate.iml
