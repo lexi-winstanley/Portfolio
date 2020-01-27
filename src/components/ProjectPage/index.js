@@ -47,7 +47,7 @@ const ProjectPage = props => {
                     <EqualColumn>
                         <h2 className="projectSubheading" style={styles.importedTextColor}>Description: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{currentProject.description}</p>
-                        <h2 className="projectSubheading" style={styles.importedTextColor}>Organization: </h2>
+                        <h2 className="projectSubheading" style={styles.importedTextColor}>Technical Information: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{currentProject.organization}</p>
                         <h2 className="projectSubheading" style={styles.importedTextColor}>Technologies: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{currentProject.technologies}</p>

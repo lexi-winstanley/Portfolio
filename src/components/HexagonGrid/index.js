@@ -17,9 +17,9 @@ const HexagonGrid = props => {
         />
     ));
     return (
-        <div className="hexagonGrid">
-            {content}
-        </div>
+            <div className="hexagonGrid">
+                {content}
+            </div>
     )
 };
 

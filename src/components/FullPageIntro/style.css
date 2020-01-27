@@ -1,0 +1,18 @@
+.introFullContainer {
+    width: 100%;
+    align-self: flex-start;
+    flex: 1;
+    min-height: 100vh;
+    background-color: rgba(248,247,247,1);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textTitleCentered {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    padding: .25rem 2rem;
+}
