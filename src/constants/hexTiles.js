@@ -25,8 +25,8 @@ export default {
             id: '3',
             imageSrc: '',
             imageAlt: '',
-            background: '#0072bb',
-            textColor: '#f8f7f7',
+            background: '#45bce5',
+            textColor: '#0F0F0D',
             title: '',
             path: '/'
         },
@@ -53,8 +53,8 @@ export default {
             id: '6',
             imageSrc: 'images/burger.svg',
             imageAlt: 'double decker burger icon',
-            background: '#45bce5',
-            textColor: '#0F0F0D',
+            background: '#0072bb',
+            textColor: '#f8f7f7',
             title: 'Eat Da Burger',
             path: '/eat-da-burger'
         },
