@@ -22,9 +22,7 @@ export default {
             futureDev: '',
             role: 'Part of a two person development team. Responsible for design, creation of custom graphics, front end code and integrating with back end. Also responsible for all client interactions and communicating client requirements and desires to back end developer.',
             githubLink: '',
-            projectLink: 'https://www.urbanprairiehomes.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://www.urbanprairiehomes.com/'
         },
         {
             id: '19',
@@ -51,9 +49,7 @@ export default {
                 'https://github.com/lexi-winstanley/bri-SPY',
                 'https://github.com/lexi-winstanley/bri-SPYBackend'
             ],
-            projectLink: '',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: ''
         },
         {
             id: '23',
@@ -77,9 +73,7 @@ export default {
             futureDev: 'Some ideas for future development include integration with Google Maps and Calendar so that users can suggest locations and have calendar invites sent out automatically once exchange details have been agreed upon. Another idea would be to integrate with PayPal or another money handling service and allow users to set a deposit for borrowing expensive items.',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/something-borrowed',
-            projectLink: 'https://something---borrowed.herokuapp.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://something---borrowed.herokuapp.com/'
         },
         {
             id: '9',
@@ -103,9 +97,7 @@ export default {
             futureDev: '',
             role: 'Part of a three person developer team. Contributed to design, responsible for altering as needed to make responsive. Authored code to capture user inputs, call Open Weather Map API, parse latitude and longitude to be used in call to Webcams.Travel API, average temperature data and serve appropriate packing list. Created custom weather graphics and favicon.',
             githubLink: 'https://github.com/lexi-winstanley/packIt',
-            projectLink: 'https://lexi-winstanley.github.io/packIt/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/packIt/'
         },
         {
             id: '16',
@@ -129,9 +121,7 @@ export default {
             futureDev: '',
             role: 'Part of a two member development team. Responsible for design, code and creation of custom graphics.',
             githubLink: '',
-            projectLink: 'https://www.threescoredevelopment.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://www.threescoredevelopment.com/'
         },
         {
             id: '20',
@@ -155,9 +145,7 @@ export default {
             futureDev: '',
             role: 'Part of a two person development team. Responsible for design, code and creation of custom graphics.',
             githubLink: '',
-            projectLink: 'https://www.mvchaptertoo.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://www.mvchaptertoo.com/'
         },
         {
             id: '24',
@@ -181,9 +169,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: '',
-            projectLink: 'https://threescorerub.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://threescorerub.com/'
         },
         {
             id: '13',
@@ -207,9 +193,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/swissMemoryGame',
-            projectLink: 'https://lexi-winstanley.github.io/swissMemoryGame/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/swissMemoryGame/'
         },
         {
             id: '6',
@@ -233,9 +217,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/BurgerLog',
-            projectLink: 'https://nameless-taiga-35229.herokuapp.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://nameless-taiga-35229.herokuapp.com/'
         },
         {
             id: '10',
@@ -259,9 +241,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/GiphyGenerator',
-            projectLink: 'https://lexi-winstanley.github.io/GiphyGenerator/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/GiphyGenerator/'
         },
         {
             id: '15',
@@ -285,9 +265,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/FriendFinder',
-            projectLink: 'https://afternoon-falls-93974.herokuapp.com/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://afternoon-falls-93974.herokuapp.com/'
         },
         {
             id: '22',
@@ -311,9 +289,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/TrainSchedule',
-            projectLink: 'https://lexi-winstanley.github.io/TrainSchedule/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/TrainSchedule/'
         },
         {
             id: '26',
@@ -337,9 +313,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/WoodworkingTrivia',
-            projectLink: 'https://lexi-winstanley.github.io/WoodworkingTrivia/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/WoodworkingTrivia/'
         },
         {
             id: '8',
@@ -363,9 +337,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/DogBreedGuessingGame',
-            projectLink: 'https://lexi-winstanley.github.io/DogBreedGuessingGame/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/DogBreedGuessingGame/'
         },
         {
             id: '17',
@@ -389,9 +361,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/CrystalCountingGame',
-            projectLink: 'https://lexi-winstanley.github.io/CrystalCountingGame/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/CrystalCountingGame/'
         },
         {
             id: '27',
@@ -415,9 +385,7 @@ export default {
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/LetterGuessingGame',
-            projectLink: 'https://lexi-winstanley.github.io/LetterGuessingGame/',
-            projectImageSrc: '',
-            projectImageAlt: ''
+            projectLink: 'https://lexi-winstanley.github.io/LetterGuessingGame/'
         }
     ]
 }
