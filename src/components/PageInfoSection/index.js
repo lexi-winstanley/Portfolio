@@ -2,8 +2,6 @@ import React from 'react';
 import './style.css';
 import FlexColumnContainer from '../FlexColumnContainer';
 import EqualColumn from '../EqualColumn';
-import {Link, useParams} from 'react-router-dom';
-import projectList from '../../constants/projects';
 
 const PageInfoSection = props => {
 
