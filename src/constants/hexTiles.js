@@ -8,6 +8,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -18,6 +19,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -28,6 +30,7 @@ export default {
             background: '#45bce5',
             textColor: '#0F0F0D',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -38,6 +41,7 @@ export default {
             background: '#cbc5ef',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -47,6 +51,7 @@ export default {
             background: '#0cb2ba',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -56,6 +61,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Eat Da Burger',
+            technologies: '',
             path: '/eat-da-burger'
         },
         {
@@ -66,6 +72,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -75,6 +82,7 @@ export default {
             background: '#b5ca30',
             textColor: '#0F0F0D',
             title: 'Guess that Dog Breed Game',
+            technologies: '',
             path: '/guess-that-dog-breed'
         },
         {
@@ -84,6 +92,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Pack It!',
+            technologies: '',
             path: '/pack-it'
         },
         {
@@ -93,6 +102,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'GIF Generator',
+            technologies: '',
             path: '/gif-generator'
         },
         {
@@ -103,6 +113,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -112,6 +123,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Urban Prairie Homes',
+            technologies: '',
             path: '/urban-prairie-homes'
         },
         {
@@ -121,6 +133,7 @@ export default {
             background: '#b5ca30',
             textColor: '#0F0F0D',
             title: 'Swiss Memory Game',
+            technologies: '',
             path: '/swiss-memory-game'
         },
         {
@@ -131,6 +144,7 @@ export default {
             background: '#cbc5ef',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -140,6 +154,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Friend Finder Survey',
+            technologies: '',
             path: '/friend-finder'
         },
         {
@@ -149,6 +164,7 @@ export default {
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Three Score Development',
+            technologies: '',
             path: '/three-score-development'
         },
         {
@@ -158,6 +174,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'Crystal Counting',
+            technologies: '',
             path: '/crystal-counting'
         },
         {
@@ -168,6 +185,7 @@ export default {
             background: '#0cb2ba',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -177,6 +195,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'bri-SPY',
+            technologies: '',
             path: '/bri-spy'
         },
         {
@@ -186,6 +205,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'Chapter Too Travel Blog',
+            technologies: '',
             path: '/chapter-too'
         },
         {
@@ -196,6 +216,7 @@ export default {
             background: '#0cb2ba',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -205,6 +226,7 @@ export default {
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Train Schedule',
+            technologies: '',
             path: '/train-schedule'
         },
         {
@@ -214,6 +236,7 @@ export default {
             background: '#45bce5',
             textColor: '#0F0F0D',
             title: 'Something Borrowed',
+            technologies: '',
             path: '/something-borrowed'
         },
         {
@@ -223,6 +246,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Three Score Rub',
+            technologies: '',
             path: '/three-score-rub'
         },
         {
@@ -233,6 +257,7 @@ export default {
             background: '#b5ca30',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -242,6 +267,7 @@ export default {
             background: '#0cb2ba',
             textColor: '#f8f7f7',
             title: 'Woodworking Trivia',
+            technologies: '',
             path: '/woodworking-trivia'
         },
         {
@@ -251,6 +277,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Letter Guessing Game',
+            technologies: '',
             path: '/letter-guessing-game'
         },
         {
@@ -261,6 +288,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -271,6 +299,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -281,6 +310,7 @@ export default {
             background: '#b5ca30',
             textColor: '#f8f7f7',
             title: '',
+            technologies: '',
             path: '/'
         },
         {
@@ -291,6 +321,7 @@ export default {
             background: '#45bce5',
             textColor: '#0F0F0D',
             title: '',
+            technologies: '',
             path: '/'
         }
         //end on multiple of 7n+3 or 7n

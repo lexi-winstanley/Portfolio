@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Header from '../Header';
 import FlexColumnContainer from '../FlexColumnContainer';
 import EqualColumn from '../EqualColumn';
 import {Link, useParams} from 'react-router-dom';
@@ -35,6 +36,8 @@ const ProjectPage = props => {
     };
 
         return (
+            <>
+            <Header/>
             <div className="pageContainer" style={styles.importedColor}>
                 <div className="pageBanner" >
                     <Link to='/' className="closeButton">
@@ -61,6 +64,7 @@ const ProjectPage = props => {
                     </EqualColumn>
                 </FlexColumnContainer>
             </div>
+            </>
         );
     };
 

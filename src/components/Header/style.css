@@ -14,7 +14,17 @@
     align-self: flex-start;
     justify-content: flex-start;
 }
-
 .menuContainer:hover + .introContainer {
     display: flex;
+}
+.introContainer {
+    width: 100%;
+    align-self: flex-start;
+    display: none;
+}
+.textTitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    padding: .25rem 1rem;
 }

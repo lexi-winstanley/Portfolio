@@ -13,6 +13,7 @@ const HexagonGrid = props => {
             background={hexTile.background}
             textColor={hexTile.textColor}
             title={hexTile.title}
+            technologies={hexTile.technologies}
             link={hexTile.path}
         />
     ));

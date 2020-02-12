@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import Logo from '../Logo';
 import NavigationMenu from '../NavigationMenu';
-import IntroStatement from '../IntroStatement';
 
 const Header = props => {
     const introVisible = props.introVisible;
@@ -12,7 +11,9 @@ const Header = props => {
                 <Logo/>
                 <NavigationMenu/>
             </div>
-            {introVisible === false ? <></> : <IntroStatement/>}
+            {introVisible === false ? <></> : <div className="introContainer">
+                <h2 className="textTitle">Lexi Winstanley: detail-oriented Front End Web Developer known for delivering responsive, cross browser compatible applications that balance performance and design with overall user experience. Certificate in Full Stack Web Development from the University of Washington and strong skills in HTML, CSS and JavaScript.</h2>
+            </div>}
 
         </div>
     )

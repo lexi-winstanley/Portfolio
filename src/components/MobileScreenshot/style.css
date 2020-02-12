@@ -18,9 +18,15 @@
     width: 90%;
     height: 90.5%;
     border-radius: .75rem;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 .screenshot {
     z-index: 20;
     width: 100%;
     display: block;
+}
+.mobileScreen::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
