@@ -45,6 +45,15 @@
     opacity: 0;
     text-transform: uppercase;
     font-size: 1.25rem;
+    font-weight: 700;
+}
+.hexTech {
+    margin: 0;
+    text-align: center;
+    opacity: 0;
+    font-size: 1rem;
+    padding-top: .75rem;
+    font-weight: 400;
 }
 .hexImageContainer {
     position: absolute;
@@ -66,6 +75,10 @@
     transition: transform 2s, opacity 2s;
 }
 .hexChild:hover .hexTitle {
+    opacity: 1;
+    transition: opacity 2s;
+}
+.hexChild:hover .hexTech {
     opacity: 1;
     transition: opacity 2s;
 }

@@ -9,6 +9,7 @@ const PageIntroSection = props => {
             <>
                 <h1 className="pageTitle">{props.pageTitle}</h1>
                 <FlexColumnContainer>
+                    {props.secondColumn === false ? <></> : <EqualColumn>{props.secondContent}</EqualColumn>}
                     <EqualColumn>
                         <p>{props.pageInfo}</p>
                     </EqualColumn>

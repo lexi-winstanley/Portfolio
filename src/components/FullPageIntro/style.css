@@ -2,17 +2,149 @@
     width: 100%;
     align-self: flex-start;
     flex: 1;
-    min-height: 100vh;
+    height: 100vh;
     background-color: rgba(248,247,247,1);
     z-index: 10;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 3.5rem;
 }
 .textTitleCentered {
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
     margin: 0;
-    padding: .25rem 2rem;
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: textColorFade;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+    color: #680a4d;
+}
+.scrollLabel {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+.scrollArrow {
+    width: 0;
+    height: 0;
+    border-left: 7rem solid transparent;
+    border-right: 7rem solid transparent;
+    border-top: 2.5rem solid #0f0f0d;
+    margin-bottom: 3rem;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(1rem);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(1rem);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1rem);
+    }
+    60% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(1rem);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes textColorFade {
+    0% {
+        color: #680a4d;
+    }
+    5% {
+        color: #680a4d;
+    }
+    10% {
+        color: #45bce5;
+    }
+    15% {
+        color: #45bce5;
+    }
+    20% {
+        color: #b5ca30;
+    }
+    25% {
+        color: #b5ca30;
+    }
+    30% {
+        color: #0072bb;
+    }
+    35% {
+        color: #0072bb;
+    }
+    40% {
+        color: #FC354C;
+    }
+    45% {
+        color: #FC354C;
+    }
+    50% {
+        color: #0cb2ba;
+    }
+    55% {
+        color: #0cb2ba;
+    }
+    60% {
+        color: #FC354C;
+    }
+    65% {
+        color: #FC354C;
+    }
+    70% {
+        color: #0072bb;
+    }
+    75% {
+        color: #0072bb;
+    }
+    80% {
+        color: #b5ca30;
+    }
+    85% {
+        color: #b5ca30;
+    }
+    90% {
+        color: #45bce5;
+    }
+    95% {
+        color: #45bce5;
+    }
+    100% {
+        color: #680a4d;
+    }
 }

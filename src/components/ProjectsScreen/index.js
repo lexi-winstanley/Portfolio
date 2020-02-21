@@ -33,7 +33,7 @@ const ProjectsScreen = props => {
         <>
         <Header/>
         <PageContentWrapper>
-            <PageIntroSection pageTitle='My Projects' pageInfo='Motivated to identify and implement the best technologies to meet requirements and exceed expectations, I have honed strong skills in HTML, CSS and JavaScript and am passionate about exploring new technologies and approaches in order to deliver optimum results. True desire to ensure positive experiences for all members of the development team including the client.'/>
+            <PageIntroSection pageTitle="My Projects" pageInfo="Motivated to identify and implement the best technologies to meet requirements and exceed expectations, I have honed strong skills in HTML, CSS and JavaScript and am passionate about exploring new technologies and approaches in order to deliver optimum results. True desire to ensure positive experiences for all members of the development team including the client." secondColumn={false}/>
             {content}
         </PageContentWrapper>
         </>

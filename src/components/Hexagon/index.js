@@ -19,7 +19,7 @@ const Hexagon = props => {
                         <h3 className="hexTitle" style={styles.importedTextColor}>
                             {props.title}
                         </h3>
-                        <h4 className="tileTech">{props.technologies}</h4>
+                        <h4 className="hexTech" style={styles.importedTextColor}>{props.technologies}</h4>
                         <div className="hexImageContainer">
                             <img className="hexImage" src={props.imageSrc} alt={props.imageAlt}/>
                         </div>

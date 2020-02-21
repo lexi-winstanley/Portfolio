@@ -61,7 +61,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Eat Da Burger',
-            technologies: '',
+            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
             path: '/eat-da-burger'
         },
         {
@@ -82,7 +82,7 @@ export default {
             background: '#b5ca30',
             textColor: '#0F0F0D',
             title: 'Guess that Dog Breed Game',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript',
             path: '/guess-that-dog-breed'
         },
         {
@@ -92,7 +92,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Pack It!',
-            technologies: '',
+            technologies: 'OpenWeatherMap API, Webcams.Travel API, Materialize, jQuery',
             path: '/pack-it'
         },
         {
@@ -102,7 +102,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'GIF Generator',
-            technologies: '',
+            technologies: 'Giphy API, JavaScript, jQuery, ',
             path: '/gif-generator'
         },
         {
@@ -123,17 +123,17 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Urban Prairie Homes',
-            technologies: '',
+            technologies: 'React, Amazon S3',
             path: '/urban-prairie-homes'
         },
         {
             id: '13',
             imageSrc: 'images/swissFavicon.svg',
-            imageAlt: '',
+            imageAlt: 'polaroid icon with Swiss cross',
             background: '#b5ca30',
             textColor: '#0F0F0D',
             title: 'Swiss Memory Game',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript, React',
             path: '/swiss-memory-game'
         },
         {
@@ -154,17 +154,17 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Friend Finder Survey',
-            technologies: '',
+            technologies: 'Bootstrap, jQuery, Node.js, Express',
             path: '/friend-finder'
         },
         {
             id: '16',
             imageSrc: 'images/threeScoreDev.svg',
-            imageAlt: '',
+            imageAlt: 'compass inspired black and green Three Score Development logo',
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Three Score Development',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript',
             path: '/three-score-development'
         },
         {
@@ -174,7 +174,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'Crystal Counting',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript, jQuery',
             path: '/crystal-counting'
         },
         {
@@ -195,17 +195,17 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'bri-SPY',
-            technologies: '',
+            technologies: 'React Native, Expo, Node.js, Express',
             path: '/bri-spy'
         },
         {
             id: '20',
             imageSrc: 'images/chapterToo.svg',
-            imageAlt: '',
+            imageAlt: 'Chapter Too white and grey sailboat icon',
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'Chapter Too Travel Blog',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript',
             path: '/chapter-too'
         },
         {
@@ -222,31 +222,31 @@ export default {
         {
             id: '22',
             imageSrc: 'images/train.svg',
-            imageAlt: '',
+            imageAlt: 'olive green, black and grey train logo',
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Train Schedule',
-            technologies: '',
+            technologies: 'JavaScript, jQuery, Firebase',
             path: '/train-schedule'
         },
         {
             id: '23',
             imageSrc: 'images/somethingBorrowed.svg',
-            imageAlt: '',
+            imageAlt: 'handshake logo in navy blue and shades of orange',
             background: '#45bce5',
             textColor: '#0F0F0D',
             title: 'Something Borrowed',
-            technologies: '',
+            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
             path: '/something-borrowed'
         },
         {
             id: '24',
             imageSrc: 'images/threeScoreRub.svg',
-            imageAlt: '',
+            imageAlt: 'Three Score Rub Original jar icon',
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Three Score Rub',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript',
             path: '/three-score-rub'
         },
         {
@@ -267,7 +267,7 @@ export default {
             background: '#0cb2ba',
             textColor: '#f8f7f7',
             title: 'Woodworking Trivia',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript',
             path: '/woodworking-trivia'
         },
         {
@@ -277,7 +277,7 @@ export default {
             background: '#680a4d',
             textColor: '#f8f7f7',
             title: 'Letter Guessing Game',
-            technologies: '',
+            technologies: 'HTML, CSS, JavaScript',
             path: '/letter-guessing-game'
         },
         {

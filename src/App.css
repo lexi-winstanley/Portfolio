@@ -2,9 +2,18 @@
   box-sizing: border-box;
   color: #0F0F0D;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 16pt;
   cursor: pointer;
 }
 html, body {
   background-color: #f8f7f7;
+  font-size: 16pt;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
 }
