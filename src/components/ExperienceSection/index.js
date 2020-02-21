@@ -2,21 +2,37 @@ import React from 'react';
 import './style.css';
 
 const ExperienceSection = props => {
-    let responsibilities = props.responsibilities.map(responsibility => (
-        <li>{responsibility}</li>
-    ));
-    let skills = props.skills.map(skill => (
-        <li>{skill}</li>
-    ));
+    const styles = {
+        importedColor: {
+            backgroundColor: props.backgroundColor,
+            color: props.textColor
+        }
+    };
+    let responsibilityHeader = <></>;
+    let responsibilities;
+    if (props.responsibilities.length > 0) {
+        responsibilityHeader = <h4 style={styles.importedColor}>Responsibilities</h4>;
+        responsibilities = props.responsibilities.map(responsibility => (
+            <li style={styles.importedColor}>{responsibility}</li>
+        ));
+    }
+    let skillsHeader = <></>;
+    let skills;
+    if (props.skills.length > 0) {
+        skillsHeader = <h4 style={styles.importedColor}>Skills</h4>
+        skills = props.skills.map(skill => (
+            <li style={styles.importedColor}>{skill}</li>
+        ));
+    }
     return (
-        <div className="experienceSection">
-            <h2>{props.role}</h2>
-            <h3>{props.business} &middot; {props.location}</h3>
-            <h3>{props.duration}</h3>
-            <h4>Responsibilities</h4>
-            <ul className="experienceList">{responsibilities}</ul>
-            <h4>Highlighted Skills</h4>
-            <ul className="experienceList">{skills}</ul>
+        <div className="experienceSection" style={styles.importedColor}>
+            <h2 style={styles.importedColor}>{props.role}</h2>
+            <h3 style={styles.importedColor}>{props.business} &middot; {props.location}</h3>
+            <h3 style={styles.importedColor}>{props.duration}</h3>
+            {responsibilityHeader}
+            <ul className="experienceList" style={styles.importedColor}>{responsibilities}</ul>
+            {skillsHeader}
+            <ul className="experienceList" style={styles.importedColor}>{skills}</ul>
         </div>
     )
 };

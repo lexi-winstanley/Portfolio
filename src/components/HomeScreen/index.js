@@ -30,7 +30,7 @@ class HomeScreen extends Component {
         return (
             <>
                 <FullPageIntro headerIntro={this.state.headerIntro}/>
-                <Header introVisible={this.state.headerIntro}/>
+                <Header/>
                 <FlexContainer>
                     <HexagonGrid/>
                 </FlexContainer>

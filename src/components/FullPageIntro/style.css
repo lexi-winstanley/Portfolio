@@ -24,7 +24,7 @@
     animation-name: textColorFade;
     animation-iteration-count: infinite;
     animation-duration: 50s;
-    color: #680a4d;
+    color: #0f0f0d;
 }
 .scrollLabel {
     font-size: 2rem;
@@ -33,7 +33,7 @@
     text-transform: uppercase;
     animation-name: bounce;
     animation-iteration-count: infinite;
-    animation-duration: 25s;
+    animation-duration: 20s;
 }
 .scrollArrow {
     width: 0;
@@ -44,7 +44,7 @@
     margin-bottom: 3rem;
     animation-name: bounce;
     animation-iteration-count: infinite;
-    animation-duration: 25s;
+    animation-duration: 20s;
 }
 
 @keyframes bounce {
@@ -83,68 +83,3 @@
     }
 }
 
-@keyframes textColorFade {
-    0% {
-        color: #680a4d;
-    }
-    5% {
-        color: #680a4d;
-    }
-    10% {
-        color: #45bce5;
-    }
-    15% {
-        color: #45bce5;
-    }
-    20% {
-        color: #b5ca30;
-    }
-    25% {
-        color: #b5ca30;
-    }
-    30% {
-        color: #0072bb;
-    }
-    35% {
-        color: #0072bb;
-    }
-    40% {
-        color: #FC354C;
-    }
-    45% {
-        color: #FC354C;
-    }
-    50% {
-        color: #0cb2ba;
-    }
-    55% {
-        color: #0cb2ba;
-    }
-    60% {
-        color: #FC354C;
-    }
-    65% {
-        color: #FC354C;
-    }
-    70% {
-        color: #0072bb;
-    }
-    75% {
-        color: #0072bb;
-    }
-    80% {
-        color: #b5ca30;
-    }
-    85% {
-        color: #b5ca30;
-    }
-    90% {
-        color: #45bce5;
-    }
-    95% {
-        color: #45bce5;
-    }
-    100% {
-        color: #680a4d;
-    }
-}

@@ -4,7 +4,6 @@ import projectList from '../../constants/projects';
 import ProjectInfo from '../ProjectInfo';
 import Header from '../Header';
 import PageContentWrapper from '../PageContentWrapper';
-import PageIntroSection from '../PageIntroSection';
 
 const ProjectsScreen = props => {
     let content = projectList.projects.map(project => (
@@ -32,8 +31,9 @@ const ProjectsScreen = props => {
     return (
         <>
         <Header/>
-        <PageContentWrapper>
-            <PageIntroSection pageTitle="My Projects" pageInfo="Motivated to identify and implement the best technologies to meet requirements and exceed expectations, I have honed strong skills in HTML, CSS and JavaScript and am passionate about exploring new technologies and approaches in order to deliver optimum results. True desire to ensure positive experiences for all members of the development team including the client." secondColumn={false}/>
+        <PageContentWrapper backgroundColor="#cbc5ef" textColor="#0F0F0D">
+            <h1 className="pageTitle" style={{backgroundColor: '#cbc5ef', color: '#0F0F0D'}}>My Projects</h1>
+            <p className="projectsIntroParagraph">Motivated to identify and implement the best technologies to meet requirements and exceed expectations, I have honed strong skills in HTML, CSS and JavaScript and am passionate about exploring new technologies and approaches in order to deliver optimum results. True desire to ensure positive experiences for all members of the development team including the client.</p>
             {content}
         </PageContentWrapper>
         </>
