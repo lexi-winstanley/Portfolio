@@ -7,31 +7,33 @@ import HomeScreen from './components/HomeScreen';
 import AboutScreen from './components/AboutScreen';
 import ProjectsScreen from './components/ProjectsScreen';
 import ContactScreen from './components/ContactScreen';
+import ScrollToTop from "./components/ScrollToTop";
 
 class App extends Component {
 
   render() {
     return (
         <Router>
-        <Wrapper>
-            <Switch>
-                <Route exact path={process.env.PUBLIC_URL + '/'}>
-                    <HomeScreen/>
-                </Route>
-                <Route path={process.env.PUBLIC_URL + '/about'}>
-                    <AboutScreen/>
-                </Route>
-                <Route path={process.env.PUBLIC_URL + '/projects'}>
-                    <ProjectsScreen/>
-                </Route>
-                <Route path={process.env.PUBLIC_URL + '/contact'}>
-                    <ContactScreen/>
-                </Route>
-                <Route path={process.env.PUBLIC_URL + '/:project'}>
-                    <ProjectPage/>
-                </Route>
-            </Switch>
-        </Wrapper>
+            <ScrollToTop/>
+            <Wrapper>
+                <Switch>
+                    <Route exact path={process.env.PUBLIC_URL + '/'}>
+                        <HomeScreen/>
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + '/about'}>
+                        <AboutScreen/>
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + '/projects'}>
+                        <ProjectsScreen/>
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + '/contact'}>
+                        <ContactScreen/>
+                    </Route>
+                    <Route path={process.env.PUBLIC_URL + '/:project'}>
+                        <ProjectPage/>
+                    </Route>
+                </Switch>
+            </Wrapper>
         </Router>
     );
   }

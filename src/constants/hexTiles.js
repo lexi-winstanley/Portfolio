@@ -56,13 +56,13 @@ export default {
         },
         {
             id: '6',
-            imageSrc: 'images/burger.svg',
-            imageAlt: 'double decker burger icon',
+            imageSrc: '',
+            imageAlt: '',
             background: '#0072bb',
             textColor: '#f8f7f7',
-            title: 'Eat Da Burger',
-            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
-            path: '/eat-da-burger'
+            title: '',
+            technologies: '',
+            path: '/'
         },
         {
             //cutoff
@@ -292,15 +292,14 @@ export default {
             path: '/'
         },
         {
-            //cutoff
             id: '29',
-            imageSrc: '',
-            imageAlt: '',
-            background: '#FC354C',
+            imageSrc: 'images/burger.svg',
+            imageAlt: 'double decker burger icon',
+            background: '#0072bb',
             textColor: '#f8f7f7',
-            title: '',
-            technologies: '',
-            path: '/'
+            title: 'Eat Da Burger',
+            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
+            path: '/eat-da-burger'
         },
         {
             //cutoff
@@ -323,7 +322,51 @@ export default {
             title: '',
             technologies: '',
             path: '/'
-        }
+        },
+        {
+            //cutoff
+            id: '32',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#680a4d',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            //cutoff
+            id: '33',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#041232',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            //cutoff
+            id: '34',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#cbc5ef',
+            textColor: '#0F0F0D',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            //cutoff
+            id: '35',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#FC354C',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
         //end on multiple of 7n+3 or 7n
     ]
 }

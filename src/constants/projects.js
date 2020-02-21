@@ -196,7 +196,7 @@ export default {
             projectLink: 'https://lexi-winstanley.github.io/swissMemoryGame/'
         },
         {
-            id: '6',
+            id: '29',
             imageSrc: 'images/burger.svg',
             imageAlt: 'double decker burger icon',
             background: '#0072bb',
