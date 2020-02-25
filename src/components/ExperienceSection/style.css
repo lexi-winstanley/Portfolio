@@ -1,18 +1,18 @@
 .experienceSection {
     padding: .75rem 1.5rem 1rem 1.5rem;
 }
-h2 {
+.experienceSection h2 {
     font-size: 1.25rem;
     margin: 0;
     padding: 0;
 }
-h3 {
+.experienceSection h3 {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
     padding: 0 1.5rem 0 1.5rem;
 }
-h4 {
+.experienceSection h4 {
     font-size: 1rem;
     margin: 0;
     padding: .5rem 1.5rem 0 1.5rem;

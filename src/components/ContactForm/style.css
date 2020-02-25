@@ -1,0 +1,15 @@
+.contactInfo a {
+    padding: 0 1.5rem;
+    color: #f8f7f7;
+}
+
+.contactLinksList {
+    padding: 0 1.5rem;
+    color: #f8f7f7;
+    list-style: none;
+    display: flex;
+}
+.contactLinksList li a {
+    color: #f8f7f7;
+    padding: 0 1rem 0 0;
+}
