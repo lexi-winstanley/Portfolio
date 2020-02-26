@@ -3,13 +3,14 @@
     align-self: flex-start;
     flex: 1;
     height: 100vh;
-    background-color: rgba(248,247,247,1);
+    background-color: #FC354C;
     z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     padding-top: 3.5rem;
+    position: fixed;
 }
 .textTitleCentered {
     text-align: center;

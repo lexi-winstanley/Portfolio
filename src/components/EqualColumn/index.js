@@ -3,7 +3,7 @@ import './style.css';
 
 const EqualColumn = props => {
     return (
-        <div className="equalColumn">{props.children}</div>
+        <div className="equalColumn" style={props.importStyle}>{props.children}</div>
     )
 };
 

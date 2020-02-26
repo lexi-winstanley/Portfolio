@@ -1,15 +1,62 @@
+.contactInfo {
+    text-align: center;
+    margin: 1rem 1.5rem 2rem 1.5rem;
+}
 .contactInfo a {
     padding: 0 1.5rem;
     color: #f8f7f7;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
-
+.contactInfo:hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+}
 .contactLinksList {
     padding: 0 1.5rem;
     color: #f8f7f7;
     list-style: none;
     display: flex;
+    justify-content: space-around;
+    margin: 1rem 1.5rem;
 }
-.contactLinksList li a {
+.contactLink {
+    padding: 0 1rem;
+    font-size: 1.15rem;
+}
+.contactLink a {
     color: #f8f7f7;
-    padding: 0 1rem 0 0;
+}
+.contactLink:hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+.titleBackground {
+    background-color: #680a4d;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+}
+.contactTitle {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: .5rem 0;
+    text-align: center;
+    color: #f8f7f7;
+    font-weight: 400;
+    font-size: 1.25rem;
+    order: 1;
+}
+.contactTitle:hover {
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+#resumeImg {
+    border-radius: 0 0 .4rem .4rem;
+    order: 2;
+}
+#resumeImg:hover + .contactTitle {
+    transform: scale(1.25);
+    transition: transform 1s;
 }

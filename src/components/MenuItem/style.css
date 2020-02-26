@@ -12,6 +12,6 @@
     text-decoration: none;
 }
 .menuItem:hover {
-    transform: scale(1.35);
+    transform: scale(1.25);
     transition: transform 1s;
 }

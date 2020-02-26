@@ -18,6 +18,9 @@ const ContactForm = props => {
             case 'contactMessage':
                 setContactMessage(event.target.value);
             break;
+            default:
+                //do nothing
+            break;
         }
     };
 
@@ -40,18 +43,18 @@ const ContactForm = props => {
         <form onSubmit={formSubmit}>
             <label>
                 Name:
-                <input name="contactName" type="text" value={contactName} onChange={formChange} />
+                <input className="formInput" name="contactName" type="text" value={contactName} onChange={formChange} />
             </label>
             <label>
                 Email:
-                <input name="contactEmail" type="text" value={contactEmail} onChange={formChange} />
+                <input className="formInput" name="contactEmail" type="text" value={contactEmail} onChange={formChange} />
             </label>
             <label>
                 Message:
-                <textarea name="contactMessage" value={contactMessage} onChange={formChange} />
+                <textarea rows="5" className="formInput" name="contactMessage" value={contactMessage} onChange={formChange} />
             </label>
-            <input type="submit" value="Submit" />
-        </form> : <>Thanks for Contacting!</>
+            <input id="submitButton" type="submit" value="Submit" />
+        </form> : <><h2 id="contactConfirmMessage">Thanks for getting in touch! I appreciate your interest and I will get back to you as soon as possible. </h2></>
     )
 };
 

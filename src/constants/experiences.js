@@ -1,6 +1,3 @@
-import ExperienceSection from "../components/AboutScreen";
-import React from "react";
-
 export default {
     experiences: [
         {
