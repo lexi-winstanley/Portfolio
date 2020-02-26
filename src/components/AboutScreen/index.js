@@ -8,6 +8,8 @@ import experiences from '../../constants/experiences';
 const AboutScreen = props => {
     let content = experiences.experiences.map(experience => (
         <ExperienceSection
+            id={experience.id}
+            key={experience.id}
             role={experience.role}
             business={experience.business}
             duration={experience.duration}

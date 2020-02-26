@@ -3,7 +3,7 @@
     align-self: flex-start;
     flex: 1;
     height: 100vh;
-    background-color: #FC354C;
+    background-color: #f8f7f7;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -11,6 +11,13 @@
     flex-direction: column;
     padding-top: 3.5rem;
     position: fixed;
+    transition: 2s ease-in;
+    opacity: 1;
+
+}
+.startFade {
+    opacity: 0;
+    visibility: hidden;
 }
 .textTitleCentered {
     text-align: center;
@@ -18,34 +25,22 @@
     font-weight: 400;
     margin: 0;
     padding: 2rem;
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-name: textColorFade;
-    animation-iteration-count: infinite;
-    animation-duration: 50s;
     color: #0f0f0d;
+    flex: 1;
 }
-.scrollLabel {
-    font-size: 2rem;
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
+.bounce {
     animation-name: bounce;
     animation-iteration-count: infinite;
     animation-duration: 20s;
+    margin: 2rem 0 4rem 0;
+    font-size: 1.5rem;
 }
-.scrollArrow {
-    width: 0;
-    height: 0;
-    border-left: 7rem solid transparent;
-    border-right: 7rem solid transparent;
-    border-top: 2.5rem solid #0f0f0d;
-    margin-bottom: 3rem;
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
+.bounce:hover {
+    transform: scale(1.25);
+    transition: transform 1s;
 }
 
 @keyframes bounce {

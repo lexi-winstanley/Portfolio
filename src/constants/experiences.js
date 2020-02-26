@@ -1,6 +1,7 @@
 export default {
     experiences: [
         {
+            id: 1,
             role: 'Certificate in Full Stack Web Development',
             business: 'University of Washington Professional & Continuing Development',
             duration: 'May 2019 – November 2019',
@@ -11,6 +12,7 @@ export default {
             textColor: '#f8f7f7'
         },
         {
+            id: 2,
             role: 'Front End Developer, Co-Owner',
             business: 'w-innovations, LLC',
             duration: 'June 2016 - February 2019',
@@ -21,6 +23,7 @@ export default {
             textColor: '#0F0F0D'
         },
         {
+            id: 3,
             role: 'Physical Therapist Assistant Student Clinical Intern',
             business: 'Rehab Without Walls',
             duration: 'January 6, 2016 – March 16, 2016',
@@ -31,6 +34,7 @@ export default {
             textColor: '#0F0F0D'
         },
         {
+            id: 4,
             role: 'Physical Therapist Assistant Student Clinical Intern',
             business: 'Quality Care Physical Therapy',
             duration: 'October 26, 2015 – December 9, 2015',
@@ -41,6 +45,7 @@ export default {
             textColor: '#f8f7f7'
         },
         {
+            id: 5,
             role: 'Physical Therapist Assistant Student Clinical Intern',
             business: 'EvergreenHealth',
             duration: 'July 6, 2015 – July 24, 2015',
@@ -51,6 +56,7 @@ export default {
             textColor: '#0F0F0D'
         },
         {
+            id: 6,
             role: 'Associate of Applied Science, Physical Therapist Assistant, GPA: 4.00',
             business: 'Lake Washington Institute of Technology',
             duration: 'September 2014 – March 2016',
@@ -61,6 +67,7 @@ export default {
             textColor: '#0F0F0D'
         },
         {
+            id: 7,
             role: 'Administrative Assistant, Temporary',
             business: 'Leidos',
             duration: 'April 2014 – September 2014',
@@ -71,6 +78,7 @@ export default {
             textColor: '#f8f7f7'
         },
         {
+            id: 8,
             role: 'Assistant to Lead Physical Therapist, Volunteer',
             business: 'Bear Creek Children\'s Therapy Housed at Little Bit Therapeutic Riding Center',
             duration: 'April 2013 – September 2014',
@@ -81,6 +89,7 @@ export default {
             textColor: '#f8f7f7'
         },
         {
+            id: 9,
             role: 'Child Life Volunteer',
             business: 'Seattle Children\'s Hospital',
             duration: 'April 2013 – September 2014',
@@ -91,6 +100,7 @@ export default {
             textColor: '#f8f7f7'
         },
         {
+            id: 10,
             role: 'Student Assistant',
             business: 'Medex Northwest',
             duration: 'May 2012 – February 2013',
@@ -101,6 +111,7 @@ export default {
             textColor: '#0F0F0D'
         },
         {
+            id: 11,
             role: 'Veterinary Technician Assistant',
             business: 'Crossroads Vet',
             duration: 'June 2011 – September 2011',
@@ -111,6 +122,7 @@ export default {
             textColor: '#f8f7f7'
         },
         {
+            id: 12,
             role: 'Bachelor\'s of Science, General Biology, GPA: 3.42',
             business: 'University of Washington',
             duration: 'September 2010 – August 2013',

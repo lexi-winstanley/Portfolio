@@ -7,18 +7,30 @@ import HomeScreen from './components/HomeScreen';
 import AboutScreen from './components/AboutScreen';
 import ProjectsScreen from './components/ProjectsScreen';
 import ContactScreen from './components/ContactScreen';
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from './components/ScrollToTop';
+import FullPageIntro from './components/FullPageIntro';
 
 class App extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            introVisible: true
+        }
+    };
+
+    disableIntro = (bool) => {
+        this.setState({introVisible: bool});
+    };
 
   render() {
     return (
         <Router>
             <ScrollToTop/>
             <Wrapper>
+            <FullPageIntro changeIntro={this.disableIntro} introVisible={this.state.introVisible}/>
                 <Switch>
                     <Route exact path={process.env.PUBLIC_URL + '/'}>
-                        <HomeScreen/>
+                        <HomeScreen changeIntro={this.disableIntro} introVisible={this.state.introVisible}/>
                     </Route>
                     <Route path={process.env.PUBLIC_URL + '/about'}>
                         <AboutScreen/>

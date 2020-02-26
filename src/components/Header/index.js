@@ -12,7 +12,7 @@ const Header = props => {
                 <Logo/>
                 <NavigationMenu/>
                 <div className="resumeButton">
-                    <Button buttonName="Resume" backgroundColor="#0F0F0D" textColor="#f8f7f7">
+                    <Button backgroundColor="#0F0F0D" textColor="#f8f7f7">
                         <Link to="/files/LexiWinstanley_Resume.pdf" target="_blank">R&#201;sum&#201;</Link>
                     </Button>.
                 </div>
