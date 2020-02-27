@@ -60,6 +60,8 @@ table {
   outline: none;
   border: none;
   box-shadow: 0 0 .2rem #0f0f0d;
+  padding: .15rem;
+  border-radius: .4rem;
 }
 html, body {
   background-color: #f8f7f7;
@@ -92,4 +94,10 @@ p {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+.visibilityHidden {
+  visibility: hidden;
+}
+.noDisplay {
+  display: none;
 }

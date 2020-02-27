@@ -10,3 +10,48 @@
     transform: scale(1.25);
     transition: transform 1s;
 }
+#JavaScript, #Node, #jQuery, #React, #ReactNative, #MySQL, #MongoDB, #Firebase, #API, #UserAuth {
+    margin: .25rem;
+    flex: 1;
+    flex-basis: 15%;
+}
+#JavaScript:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#Node:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#jQuery:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#React:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#ReactNative:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#MySQL:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#MongoDB:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#Firebase:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#API:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+#UserAuth:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+}

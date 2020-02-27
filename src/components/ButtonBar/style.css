@@ -1,6 +1,8 @@
-.flexColumnContainer {
+.buttonContainer {
     display: flex;
-    width: 100%;
-    padding: 0 1rem 1rem 1rem;
     flex-wrap: wrap;
+    margin: -.25rem 0 0 0;
+    padding: 0 .75rem .75rem .75rem;
+    justify-content: space-between;
+    width: 100%;
 }
