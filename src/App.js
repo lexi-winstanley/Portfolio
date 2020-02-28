@@ -20,9 +20,14 @@ class App extends Component {
 
     disableIntro = (bool) => {
         this.setState({introVisible: bool});
+        document.body.classList.remove('overflowHidden');
     };
 
-  render() {
+    componentDidMount() {
+        document.body.classList.add('overflowHidden');
+    }
+
+    render() {
     return (
         <Router>
             <ScrollToTop/>

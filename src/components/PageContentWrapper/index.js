@@ -2,6 +2,10 @@ import React from 'react';
 import './style.css';
 
 const PageContentWrapper = props => {
+    const containerClasses = ['pageContentContainer'];
+    if (props.extraPadding === true) {
+        containerClasses.push('extraPaddingTop');
+    }
     const styles = {
         importedColor: {
             backgroundColor: props.backgroundColor,
@@ -9,7 +13,7 @@ const PageContentWrapper = props => {
         }
     };
     return (
-        <div className="pageContentContainer" style={styles.importedColor}>
+        <div className={containerClasses.join(' ')} style={styles.importedColor}>
             {props.children}
         </div>
     )

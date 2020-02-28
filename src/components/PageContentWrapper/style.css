@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 8.25rem;
+    padding-top: 3.5rem;
     min-height: 100%;
     background-color: #f8f7f7;
     flex: 1;
+}
+.extraPaddingTop {
+    padding-top: 8.25rem;
 }
