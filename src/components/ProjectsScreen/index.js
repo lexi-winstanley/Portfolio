@@ -6,14 +6,14 @@ import Header from '../Header';
 import PageContentWrapper from '../PageContentWrapper';
 
 const ProjectsScreen = props => {
-    const [filter, setFilter] = useState('reactNative');
+    const [filter, setFilter] = useState('all');
     const [content, setContent] = useState();
     const filterButtonAction = (newFilter) => {
-        console.log('filterButtonActionFunction');
         setFilter(newFilter);
     };
 
     useEffect(() => {
+        //filterButtonAction.bind(this);
         if (filter === 'all') {
              setContent(projectList.projects.map(project => (
                 <ProjectInfo

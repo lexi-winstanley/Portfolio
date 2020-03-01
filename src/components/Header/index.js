@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom';
 import ButtonContainer from '../ButtonBar';
 
 const Header = props => {
+    const click = props.onFilterButton;
     return (
         <div className="header">
             <div className="menuContainer">
@@ -20,37 +21,40 @@ const Header = props => {
             </div>
             {props.buttonsVisible === true ?
                 <ButtonContainer>
-                    <Button backgroundColor="#cbc5ef" textColor="#0F0F0D" id="JavaScript">
+                    <Button backgroundColor="#FC354C" textColor="#f8f7f7" id="all" onClickFunction={click} extraClass="headerButton">
+                        All Projects
+                    </Button>
+                    <Button backgroundColor="#cbc5ef" textColor="#0F0F0D" id="javascript" onClickFunction={click} extraClass="headerButton">
                         JavaScript
                     </Button>
-                    <Button backgroundColor="#0072bb" textColor="#f8f7f7" id="Node">
+                    <Button backgroundColor="#0072bb" textColor="#f8f7f7" id="node" onClickFunction={click} extraClass="headerButton">
                     Node.js
                 </Button>
-                    <Button backgroundColor="#b5ca30" textColor="#0F0F0D" id="jQuery">
+                    <Button backgroundColor="#b5ca30" textColor="#0F0F0D" id="jQuery" onClickFunction={click} extraClass="headerButton">
                         jQuery
                     </Button>
-                    <Button backgroundColor="#680a4d" textColor="#f8f7f7" id="React">
+                    <Button backgroundColor="#680a4d" textColor="#f8f7f7" id="react" onClickFunction={click} extraClass="headerButton">
                         React
                     </Button>
-                    <Button backgroundColor="#45bce5" textColor="#0F0F0D" id="ReactNative">
+                    <Button backgroundColor="#45bce5" textColor="#0F0F0D" id="reactNative" onClickFunction={click} extraClass="headerButton">
                         React Native
                     </Button>
-                    <Button backgroundColor="#041232" textColor="#f8f7f7" id="MySQL">
+                    <Button backgroundColor="#041232" textColor="#f8f7f7" id="mySQL" onClickFunction={click} extraClass="headerButton">
                         MySQL
                     </Button>
-                    <Button backgroundColor="#b5ca30" textColor="#0F0F0D" id="MongoDB">
+                    <Button backgroundColor="#b5ca30" textColor="#0F0F0D" id="mongo" onClickFunction={click} extraClass="headerButton">
                         MongoDB
                     </Button>
-                    <Button backgroundColor="#0cb2ba" textColor="#f8f7f7" id="Firebase">
+                    <Button backgroundColor="#0cb2ba" textColor="#f8f7f7" id="firebase" onClickFunction={click} extraClass="headerButton">
                         Firebase
                     </Button>
-                    <Button backgroundColor="#45bce5" textColor="#0F0F0D" id="Graphics">
+                    <Button backgroundColor="#45bce5" textColor="#0F0F0D" id="customGraphics" onClickFunction={click} extraClass='headerButton'>
                         Custom Graphics
                     </Button>
-                    <Button backgroundColor="#FC354C" textColor="#f8f7f7" id="UserAuth">
+                    <Button backgroundColor="#FC354C" textColor="#f8f7f7" id="userAuth" onClickFunction={click} extraClass="headerButton">
                         User Authentication
                     </Button>
-                    <Button backgroundColor="#cbc5ef" textColor="#0F0F0D" id="API">
+                    <Button backgroundColor="#cbc5ef" textColor="#0F0F0D" id="api" onClickFunction={click} extraClass="headerButton">
                         API
                     </Button>
                 </ButtonContainer> : <></>
