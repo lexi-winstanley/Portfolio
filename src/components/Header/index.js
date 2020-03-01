@@ -23,7 +23,7 @@ const Header = props => {
                     <Button backgroundColor="#cbc5ef" textColor="#0F0F0D" id="JavaScript">
                         JavaScript
                     </Button>
-                    <Button backgroundColor="#FC354C" textColor="#f8f7f7" id="Node">
+                    <Button backgroundColor="#0072bb" textColor="#f8f7f7" id="Node">
                     Node.js
                 </Button>
                     <Button backgroundColor="#b5ca30" textColor="#0F0F0D" id="jQuery">
@@ -44,11 +44,14 @@ const Header = props => {
                     <Button backgroundColor="#0cb2ba" textColor="#f8f7f7" id="Firebase">
                         Firebase
                     </Button>
+                    <Button backgroundColor="#45bce5" textColor="#0F0F0D" id="Graphics">
+                        Custom Graphics
+                    </Button>
+                    <Button backgroundColor="#FC354C" textColor="#f8f7f7" id="UserAuth">
+                        User Authentication
+                    </Button>
                     <Button backgroundColor="#cbc5ef" textColor="#0F0F0D" id="API">
                         API
-                    </Button>
-                    <Button backgroundColor="#0072bb" textColor="#f8f7f7" id="UserAuth">
-                        User Authentication
                     </Button>
                 </ButtonContainer> : <></>
             }

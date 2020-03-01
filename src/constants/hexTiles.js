@@ -164,7 +164,7 @@ export default {
             background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: 'Three Score Development',
-            technologies: 'HTML, CSS, JavaScript',
+            technologies: 'HTML, CSS',
             path: '/three-score-development'
         },
         {
@@ -195,7 +195,7 @@ export default {
             background: '#FC354C',
             textColor: '#f8f7f7',
             title: 'bri-SPY',
-            technologies: 'React Native, Expo, Node.js, Express',
+            technologies: 'React Native, Expo, Node.js, MongoDB',
             path: '/bri-spy'
         },
         {
@@ -205,7 +205,7 @@ export default {
             background: '#041232',
             textColor: '#f8f7f7',
             title: 'Chapter Too Travel Blog',
-            technologies: 'HTML, CSS, JavaScript',
+            technologies: 'HTML, CSS',
             path: '/chapter-too'
         },
         {
@@ -246,7 +246,7 @@ export default {
             background: '#0072bb',
             textColor: '#f8f7f7',
             title: 'Three Score Rub',
-            technologies: 'HTML, CSS, JavaScript',
+            technologies: 'HTML, CSS',
             path: '/three-score-rub'
         },
         {
