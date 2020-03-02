@@ -32,6 +32,33 @@ const ContactForm = props => {
         } else {
             event.preventDefault();
             window.scrollTo(0, 0);
+            const nodemailer = require('nodemailer');
+            const aws = require('aws-sdk');
+            aws.config.update({
+                accessKeyId: process.env.ACCESS_KEY,
+                secretAccessKey: process.env.SECRET_KEY,
+                region: process.env.REGION
+            });
+            let transporter = nodemailer.createTransport({
+                SES: new aws.SES({
+                    apiVersion: '2010-12-01'
+                })
+            });
+            let mailOptions = {
+                from: 'contact@lexiwinstanley.com',
+                to: 'lexi@lexiwinstanley.com',
+                subject: 'New Portfolio Contact',
+                text: `Name: ${contactName} \n Email: ${contactEmail} \n Message: ${contactMessage}`,
+                html: '<h1>You have a new contact: </h1><h2>Name: {contactName}</h2><h2>Email: {contactEmail}</h2><h2>Message: {contactMessage}</h2>'
+            };
+
+            transporter.sendMail(mailOptions, function(err, info) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log(info);
+                }
+            });
             setSubmitted(true);
             setContactName('');
             setContactEmail('');
