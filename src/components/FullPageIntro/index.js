@@ -11,7 +11,7 @@ const FullPageIntro = props => {
         event.preventDefault();
         setButtonClasses('coloredButton bounce visibilityHidden');
         setOpacityClasses('introFullContainer startFade');
-        setTimeout(changeIntroVisible, 2005);
+        setTimeout(changeIntroVisible, 2000);
     };
 
        return (

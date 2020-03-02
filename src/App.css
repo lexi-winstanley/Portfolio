@@ -56,12 +56,43 @@ table {
   font-family: 'Barlow Condensed', sans-serif;
   cursor: pointer;
 }
+*:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 .1rem #0f0f0d;
+}
+a:visited {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  opacity: .7;
+}
+a:focus {
+  text-decoration: underline;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+a:active {
+  text-decoration: underline;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
 input:focus {
   outline: none;
   border: none;
   box-shadow: 0 0 .2rem #0f0f0d;
-  padding: .15rem;
-  border-radius: .4rem;
+}
+textarea:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 .2rem #0f0f0d;
+}
+button:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 .2rem #0f0f0d;
 }
 html, body {
   background-color: #f8f7f7;

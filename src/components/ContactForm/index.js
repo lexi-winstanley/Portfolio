@@ -31,6 +31,7 @@ const ContactForm = props => {
             console.log('error');
         } else {
             event.preventDefault();
+            window.scrollTo(0, 0);
             setSubmitted(true);
             setContactName('');
             setContactEmail('');

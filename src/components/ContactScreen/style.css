@@ -12,6 +12,25 @@
     transform: scale(1.25);
     transition: transform 1s;
 }
+.contactInfo a:visited {
+    text-decoration: underline;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    opacity: .7;
+}
+.contactInfo a:focus {
+    text-decoration: underline dashed;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.contactInfo a:active {
+    text-decoration: underline dotted;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 .contactLinksList {
     padding: 0 1.5rem;
     color: #f8f7f7;

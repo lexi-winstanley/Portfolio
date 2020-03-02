@@ -13,7 +13,7 @@ const ProjectsScreen = props => {
     };
 
     useEffect(() => {
-        //filterButtonAction.bind(this);
+        window.scrollTo(0, 0);
         if (filter === 'all') {
              setContent(projectList.projects.map(project => (
                 <ProjectInfo

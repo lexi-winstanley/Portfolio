@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const Button = props => {
-    let buttonClass = props.extraClass === 'headerButton' ?  'coloredButton ' + props.extraClass : 'coloredButton' ;
+    let buttonClass = props.extraClass ?  'coloredButton ' + props.extraClass : 'coloredButton' ;
     const styles = {
         importedColor: {
             backgroundColor: props.backgroundColor,
@@ -10,7 +10,10 @@ const Button = props => {
         }
     };
     return (
-        <button id={props.id} style={styles.importedColor} className={buttonClass} onClick={() => props.onClickFunction(props.id)}>
+        props.onClickFunction === 'none' ? <button id={props.id} style={styles.importedColor} className={buttonClass}>
+                {props.children}
+            </button>
+       : <button id={props.id} style={styles.importedColor} className={buttonClass} onClick={() => props.onClickFunction(props.id)}>
             {props.children}
         </button>
     )
