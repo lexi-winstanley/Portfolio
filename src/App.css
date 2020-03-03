@@ -54,12 +54,14 @@ table {
   box-sizing: border-box;
   color: #0F0F0D;
   font-family: 'Barlow Condensed', sans-serif;
-  cursor: pointer;
 }
 *:focus {
   outline: none;
   border: none;
   box-shadow: 0 0 .1rem #0f0f0d;
+}
+a {
+  cursor: pointer;
 }
 a:visited {
   outline: none;

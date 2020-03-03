@@ -17,7 +17,7 @@ const ContactScreen = props => {
                 <EqualColumn>
                     <Link className="contactTitle" to="/files/LexiWinstanley_Resume.pdf" target="_blank" download>
                         <div className="titleBackground">
-                            <img id="resumeImg" src="images/LexiWinstanley_Resume.svg" alt="Lexi Winstanley Resume"/>
+                            <img id="resumeImg" src="images/LexiWinstanley_ResumeImage.svg" alt="Lexi Winstanley Resume"/>
                     <h2 className="contactTitle">Download R&#201;sum&#201;</h2>
 
                         </div>

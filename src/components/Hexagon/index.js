@@ -11,8 +11,16 @@ const Hexagon = props => {
             color: props.textColor
         }
     };
-    return (
-        <div className="hexagonContainer">
+    let content;
+    if (props.link === '/') {
+        content = <div className="hexagonContainer">
+            <div className="outerHexagonMask">
+                <div className="innerHexagonMask" style={styles.importedColor}>
+                </div>
+            </div>
+        </div>
+    } else {
+        content =  <div className="hexagonContainer">
             <div className="outerHexagonMask">
                 <div className="innerHexagonMask" style={styles.importedColor}>
                     <Link to={props.link} id={props.id} className="hexChild" style={styles.importedTextColor}>
@@ -27,6 +35,11 @@ const Hexagon = props => {
                 </div>
             </div>
         </div>
+    }
+    return (
+        <>
+            {content}
+        </>
     )
 };
 

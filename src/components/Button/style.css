@@ -5,6 +5,7 @@
     border-radius: .4rem;
     text-transform: uppercase;
     font-size: 1rem;
+    cursor: pointer;
 }
 .coloredButton:hover {
     transform: scale(1.25);
@@ -14,6 +15,7 @@
     margin: .25rem;
     flex: 1;
     flex-basis: 15%;
+    cursor: pointer;
 }
 .headerButton:hover {
     transform: scale(1.05);

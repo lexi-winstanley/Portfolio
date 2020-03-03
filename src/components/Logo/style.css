@@ -1,7 +1,10 @@
-.logoContainer {
+.imageLink {
     width: 7%;
     padding: .25rem 1rem;
     color: #f8f7f7;
+}
+.logoContainer {
+    width: 100%;
 }
 .navigationLogo {
     display: block;
