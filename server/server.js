@@ -28,7 +28,7 @@ app.post('/api/contact', function(req, res) {
         replyTo: req.body.contactEmail,
         from: 'contact@lexiwinstanley.com',
         to: 'lexi@lexiwinstanley.com',
-        subject: 'Portfolio Contact',
+        subject: `Portfolio Contact From ${req.body.contactName}`,
         text: `Name: ${req.body.contactName} \nEmail: ${req.body.contactEmail} \nMessage: ${req.body.contactMessage}`
     }, (err) => {
         if (err) {
