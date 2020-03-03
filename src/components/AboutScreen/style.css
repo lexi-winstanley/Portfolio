@@ -1,12 +1,12 @@
 .basicInfo {
     display: flex;
-    margin: 0 10% 1.5rem 10%;
+    margin: 0 0 1.5rem 0;
     justify-content: center;
     align-items: center;
 }
 .professionalImageContainer {
     flex: 1;
-    margin: 0 2rem 0 0;
+    margin: .5rem .75rem 0 0;
 }
 #LexiWinstanleyPhoto {
     max-width: 100%;
@@ -14,4 +14,5 @@
 .introParagraph {
     flex: 1;
     color: #f8f7f7;
+    padding-left: .75rem;
 }

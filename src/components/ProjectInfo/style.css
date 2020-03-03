@@ -2,17 +2,19 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 .pageBanner {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: .5rem;
+    padding: 0 0 .5rem 0;
 }
 .projectTitle {
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: 0;
-    padding: .25rem 1rem;
+    padding: 0 0 .25rem 0;
     font-weight: 700;
 }
 .projectSubheading {
@@ -73,4 +75,5 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: .75rem;
 }

@@ -79,9 +79,9 @@ const ContactForm = props => {
             <input id="submitButton" type="submit" value="Submit" />
         </form>
     } else if (submitted === true && error === null) {
-        content = <h2 id="contactConfirmMessage">Thanks for getting in touch! I appreciate your interest and I will get back to you as soon as possible. </h2>
+        content = <h2 id="contactConfirmMessage" className="mainHorizontalPadding">Thanks for getting in touch! I appreciate your interest and I will get back to you as soon as possible. </h2>
     } else {
-        content = <h2 id="contactErrorMessage">Unfortunately an error has occurred. Please reach out via email as your message is important to me.</h2>
+        content = <h2 id="contactErrorMessage" className="mainHorizontalPadding">Unfortunately an error has occurred. Please reach out via email as your message is important to me.</h2>
     }
         return (
             <>

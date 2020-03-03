@@ -12,9 +12,10 @@ const ContactScreen = props => {
         <>
         <Header/>
         <PageContentWrapper backgroundColor="#0cb2ba" textColor="#f8f7f7">
-            <h1 className="pageTitle" style={{backgroundColor: '#0cb2ba', color: '#f8f7f7'}}>Let's Connect</h1>
-            <FlexColumnContainer>
-                <EqualColumn>
+            <h1 className="pageTitle mainHorizontalPadding" style={{backgroundColor: '#0cb2ba', color: '#f8f7f7'}}>Let's Connect</h1>
+            <div className="mainHorizontalPadding">
+                <FlexColumnContainer>
+                <EqualColumn importStyle={{paddingRight: ".75rem", paddingBottom: "1.5rem"}}>
                     <Link className="contactTitle" to="/files/LexiWinstanley_Resume.pdf" target="_blank" download>
                         <div className="titleBackground">
                             <img id="resumeImg" src="images/LexiWinstanley_ResumeImage.svg" alt="Lexi Winstanley Resume"/>
@@ -23,7 +24,7 @@ const ContactScreen = props => {
                         </div>
                     </Link>
                 </EqualColumn>
-                <EqualColumn importStyle={{display: "flex", flexDirection: "column", justifyContent: "space-around"}}>
+                <EqualColumn importStyle={{paddingLeft: ".75rem", paddingBottom: "1.5rem", display: "flex", flexDirection: "column", justifyContent: "space-around"}}>
                     <ContactForm/>
                     <div className="contactDetails">
                         <h2 className="contactInfo"><a href="mailto:lexi@lexiwinstanley.com">lexi@lexiwinstanley.com</a></h2>
@@ -34,6 +35,7 @@ const ContactScreen = props => {
                     </div>
                 </EqualColumn>
             </FlexColumnContainer>
+            </div>
         </PageContentWrapper>
         </>
     )

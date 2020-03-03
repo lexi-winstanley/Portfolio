@@ -16,12 +16,12 @@ const ProjectInfo = props => {
     };
 
         return (
-            <div className="projectContainer" style={styles.importedColor}>
+            <div className="projectContainer mainHorizontalPadding" style={styles.importedColor}>
                 <div className="pageBanner" >
                     <h1 className="projectTitle" style={styles.importedTextColor}>{props.title}</h1>
                 </div>
                 <FlexColumnContainer>
-                    <EqualColumn>
+                    <EqualColumn importStyle={{paddingRight: ".75rem"}}>
                         <h2 className="projectSubheading" style={styles.importedTextColor}>Technologies: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{props.technologies}</p>
                         <h2 className="projectSubheading" style={styles.importedTextColor}>Description: </h2>

@@ -24,8 +24,8 @@ const AboutScreen = props => {
         <>
         <Header/>
         <PageContentWrapper backgroundColor="#680a4d" textColor="#f8f7f7">
-            <h1 className="pageTitle" style={{color: '#f8f7f7'}}>Lexi Winstanley</h1>
-            <div className="basicInfo">
+            <h1 className="pageTitle mainHorizontalPadding" style={{color: '#f8f7f7'}}>Lexi Winstanley</h1>
+            <div className="basicInfo mainHorizontalPadding">
                 <div className="professionalImageContainer">
             <img id="LexiWinstanleyPhoto" src="images/LexiWinstanleyBW.jpg" alt="Photograph of Lexi Winstanley, Front End Web Developer in black and white"/>
                 </div>

@@ -48,14 +48,16 @@ input:-webkit-autofill {
     -webkit-text-fill-color: #0f0f0d !important;
 }
 #contactConfirmMessage {
-    padding: 0 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
     color: #f8f7f7;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
 }
 #contactErrorMessage {
-    padding: 0 1.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
     color: #f8f7f7;
     font-size: 1.5rem;
     font-weight: 700;
