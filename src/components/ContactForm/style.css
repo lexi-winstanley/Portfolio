@@ -52,3 +52,10 @@ input:-webkit-autofill {
     font-weight: 700;
     text-align: center;
 }
+#contactErrorMessage {
+    padding: 0 1.5rem;
+    color: #f8f7f7;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}

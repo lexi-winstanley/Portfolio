@@ -6,6 +6,7 @@ const ContactForm = props => {
     const [contactEmail, setContactEmail] = useState('');
     const [contactMessage, setContactMessage] = useState('');
     const [submitted, setSubmitted] = useState(false);
+    const [error, setError] = useState(null);
 
     const formChange = event => {
         switch (event.target.name) {
@@ -24,51 +25,45 @@ const ContactForm = props => {
         }
     };
 
-    const formSubmit = event => {
+    const formSubmit = async (event) => {
         if (contactName === '' || contactEmail === '' || contactMessage === '') {
             //modal error
             event.preventDefault();
             console.log('error');
         } else {
             event.preventDefault();
-            window.scrollTo(0, 0);
-            const nodemailer = require('nodemailer');
-            const aws = require('aws-sdk');
-            aws.config.update({
-                accessKeyId: process.env.ACCESS_KEY,
-                secretAccessKey: process.env.SECRET_KEY,
-                region: process.env.REGION
-            });
-            let transporter = nodemailer.createTransport({
-                SES: new aws.SES({
-                    apiVersion: '2010-12-01'
+            return await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    contactName: contactName,
+                    contactEmail: contactEmail,
+                    contactMessage: contactMessage
                 })
-            });
-            let mailOptions = {
-                from: 'contact@lexiwinstanley.com',
-                to: 'lexi@lexiwinstanley.com',
-                subject: 'New Portfolio Contact',
-                text: `Name: ${contactName} \n Email: ${contactEmail} \n Message: ${contactMessage}`,
-                html: '<h1>You have a new contact: </h1><h2>Name: {contactName}</h2><h2>Email: {contactEmail}</h2><h2>Message: {contactMessage}</h2>'
-            };
-
-            transporter.sendMail(mailOptions, function(err, info) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log(info);
-                }
-            });
-            setSubmitted(true);
-            setContactName('');
-            setContactEmail('');
-            setContactMessage('');
+            })
+                .then(
+                    (result) => {
+                        window.scrollTo(0, 0);
+                        setSubmitted(true);
+                        setContactName('');
+                        setContactEmail('');
+                        setContactMessage('');
+                        console.log(result);
+                    },
+                    (error) => {
+                        window.scrollTo(0, 0);
+                        setError(error);
+                    }
+                )
         }
     };
 
-        return (
-            submitted === false ?
-        <form onSubmit={formSubmit}>
+    let content;
+    if (submitted === false) {
+        content = <form onSubmit={formSubmit}>
             <label>
                 Name:
                 <input className="formInput" name="contactName" type="text" value={contactName} onChange={formChange} />
@@ -82,7 +77,16 @@ const ContactForm = props => {
                 <textarea rows="5" className="formInput" name="contactMessage" value={contactMessage} onChange={formChange} />
             </label>
             <input id="submitButton" type="submit" value="Submit" />
-        </form> : <><h2 id="contactConfirmMessage">Thanks for getting in touch! I appreciate your interest and I will get back to you as soon as possible. </h2></>
+        </form>
+    } else if (submitted === true && error === null) {
+        content = <h2 id="contactConfirmMessage">Thanks for getting in touch! I appreciate your interest and I will get back to you as soon as possible. </h2>
+    } else {
+        content = <h2 id="contactErrorMessage">Unfortunately an error has occurred. Please reach out via email as your message is important to me.</h2>
+    }
+        return (
+            <>
+            {content}
+            </>
     )
 };
 
