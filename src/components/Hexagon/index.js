@@ -15,7 +15,7 @@ const Hexagon = props => {
         <div className="hexagonContainer">
             <div className="outerHexagonMask">
                 <div className="innerHexagonMask" style={styles.importedColor}>
-                    <Link to={props.link} id={props.id} className="hexChild">
+                    <Link to={props.link} id={props.id} className="hexChild" style={styles.importedTextColor}>
                         <h3 className="hexTitle" style={styles.importedTextColor}>
                             {props.title}
                         </h3>
