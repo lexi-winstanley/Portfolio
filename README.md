@@ -1,10 +1,4 @@
-#Project Name
-##Link to Deployed Project
-##Role
-##Technologies Used
-##NPM Packages
-##Motivation
-##Description/High-level Organization
-##Step-by-step instructions with screenshots
-##Technical Information about how project works
+# Lexi Winstanley
+[https://lexiwinstanley.com/](https://lexiwinstanley.com/)
 
+Front End Web Developer with Certificate in Full Stack Web Development from University of Washington Professional & Continuing Education, strong skills in HTML, CSS and JavaScript, additional experience with React, React Native, MySQL and MongoDB. Leveraging creative problem solving, productive collaboration and a passion for accessibility gained from a background in health care to create impactful web experiences for all users. Detail-oriented individual known for delivering responsive, cross browser compatible applications that balance performance and design with overall user experience. Recognized in collaborative settings as a creative, hardworking teammate motivated to meet all deliverables and requirements while ensuring a positive experience for others.
