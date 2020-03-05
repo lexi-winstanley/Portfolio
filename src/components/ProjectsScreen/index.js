@@ -35,6 +35,7 @@ const ProjectsScreen = props => {
                     desktopSrc={project.desktopBackgroundSrc}
                     desktopScreenshotSrc={project.desktopScreenshot}
                     desktopScreenshotAlt={project.desktopScreenshotAlt}
+                    videoSrc={project.videoSrc}
                 />
             )));
         } else {
@@ -60,6 +61,7 @@ const ProjectsScreen = props => {
                     desktopSrc={project.desktopBackgroundSrc}
                     desktopScreenshotSrc={project.desktopScreenshot}
                     desktopScreenshotAlt={project.desktopScreenshotAlt}
+                    videoSrc={project.videoSrc}
                 />
             )));
         }

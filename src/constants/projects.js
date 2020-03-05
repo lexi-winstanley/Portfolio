@@ -1,6 +1,7 @@
 export default {
     projects: [
         {
+            videoSrc: '',
             id: '12',
             imageSrc: 'images/urbanPrairieWheat.svg',
             imageAlt: '',
@@ -15,7 +16,7 @@ export default {
             title: 'Urban Prairie Homes',
             path: '/urban-prairie-homes',
             motivation: 'The client, a home builder in Fargo, ND, wanted to refresh their current website. The design needed to be responsive and allow for many pictures of the company\'s various floor plans so React was a natural choice to help improve performance. The company also has a modern aesthetic and wanted this to be reflected in the design of the new site.',
-            description: 'This is a website created with React for Urban Prairie Homes. The emphasis when designing this website was on a clean aesthetic that would allow the photos from the company\'s work to shine.',
+            description: 'This is a website created with React for Urban Prairie Homes. The emphasis when designing this website was on a clean aesthetic that would allow the photos from the company\'s current and past projects to shine.',
             technicalInfo: '',
             technologies: 'HTML, CSS, JavaScript, React, Amazon S3',
             npmPackages: '',
@@ -36,12 +37,13 @@ export default {
             api: false
         },
         {
+            videoSrc: 'images/bri-SPYDemo.mp4',
             id: '19',
             imageSrc: 'images/bri-spy.svg',
             imageAlt: 'bri-spy icon',
             background: '#FC354C',
             textColor: '#f8f7f7',
-            mobileBackgroundSrc: '',
+            mobileBackgroundSrc: 'images/phoneBackLight.svg',
             desktopBackgroundSrc: '',
             mobileScreenshot: '',
             desktopScreenshot: '',
@@ -74,6 +76,7 @@ export default {
             api: true
         },
         {
+            videoSrc: '',
             id: '23',
             imageSrc: 'images/somethingBorrowed.svg',
             imageAlt: '',
@@ -109,6 +112,7 @@ export default {
             api: true
         },
         {
+            videoSrc: '',
             id: '9',
             imageSrc: 'images/packIt.svg',
             imageAlt: '',
@@ -144,6 +148,7 @@ export default {
             api: true
         },
         {
+            videoSrc: '',
             id: '16',
             imageSrc: 'images/threeScoreDev.svg',
             imageAlt: 'compass inspired black and green Three Score Development logo',
@@ -179,6 +184,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '20',
             imageSrc: 'images/chapterToo.svg',
             imageAlt: 'Chapter Too white and grey sailboat icon',
@@ -214,6 +220,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '24',
             imageSrc: 'images/threeScoreRub.svg',
             imageAlt: 'Three Score Rub Original jar icon',
@@ -249,6 +256,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '13',
             imageSrc: 'images/swissFavicon.svg',
             imageAlt: 'polaroid icon with Swiss cross',
@@ -284,6 +292,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '29',
             imageSrc: 'images/burger.svg',
             imageAlt: 'double decker burger icon',
@@ -319,6 +328,7 @@ export default {
             api: true
         },
         {
+            videoSrc: '',
             id: '10',
             imageSrc: 'images/gifGenerator.svg',
             imageAlt: 'gif generator icon',
@@ -332,15 +342,15 @@ export default {
             desktopScreenshotAlt: '',
             title: 'GIF Generator',
             path: '/gif-generator',
-            motivation: '',
-            description: 'Users press the buttons to search for animal GIFs. They can add their own buttons to create custom searches. Each search will return 10 GIFs but pressing the \'Get More\' button after the initial search will return additional GIFs in the category. Users can expand or collapse the favorites section by pressing the arrow and pressing any \'Add to Favorites\' button will add that GIF to the section.',
-            technicalInfo: 'This application uses jQuery to populate sections of the results page with GIFs. Logic was written to capture user text input to create new buttons that can then be clicked (click event listeners) to call the Giphy API with the search query. A response is received from the Giphy API and the JSON data is used to display the GIFs on the page. If the API call is not successful, an error is shown.',
+            motivation: 'Use the Giphy API to search for GIFs matching a certain search query. Allow users to use pre-defined buttons or create their own. Display results attractively.',
+            description: 'Press the buttons to search for animal GIFs. You can add your own buttons to create custom searches. Each search will return 10 GIFs but you can press the \'Get More\' button after the initial search to return additional GIFs in that category. You can expand or collapse the favorites section by pressing the arrow and you can press any \'Add to Favorites\' button to add that GIF to the section.',
+            technicalInfo: 'Logic was written to capture user text input to create new buttons that can then be clicked (click event listeners) to call the Giphy API with the search query. A response is received from the Giphy API and the JSON data is used to display the GIFs on the page. If the API call is not successful, an error is shown.',
             technologies: 'HTML, CSS, JavaScript, jQuery, Giphy API',
             npmPackages: '',
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/giphyGenerator',
-            projectLink: 'https://lexi-winstanley.github.io/GiphyGenerator/',
+            projectLink: 'https://lexi-winstanley.github.io/giphyGenerator/',
             javascript: true,
             node: false,
             jQuery: true,
@@ -354,6 +364,7 @@ export default {
             api: true
         },
         {
+            videoSrc: '',
             id: '15',
             imageSrc: 'images/friendFinder.svg',
             imageAlt: 'friend finder icon',
@@ -367,13 +378,13 @@ export default {
             desktopScreenshotAlt: '',
             title: 'Friend Finder',
             path: '/friend-finder',
-            motivation: '',
-            description: 'Friend Finder is a web application deployed with Heroku. Users answer survey questions and are then based on their answers are shown their best stored friend match. The user is first brought to a landing page that has a button linking them to the survey page where they will be asked to answer a few questions. Once they submit the form, their answers are captured and compared with stored friends\' data. The stored friend with the lowest absolute difference from the scores will be returned as the user\'s best possible friend match.',
-            technicalInfo: 'This application is organized into an app directory which is subdivided into data, public and routing folders. The data folder holds the stored friends data as an array of objects, the public folder holds the HTML and images while the routing folder holds files defining the API and HTML routes. A server file initializes the server and brings together the other resources as necessary to enable the application\'s functionality.',
+            motivation: 'To create an application that would take in data from user surveys, execute logic to find their most compatible match from a stored list and display that to them.',
+            description: 'Friend Finder is a web application deployed with Heroku. Users answer survey questions and are then based on their answers are shown their best stored friend match.',
+            technicalInfo: 'The user is first brought to a landing page that has a button linking them to the survey page where they will be asked to answer a few questions. Once they submit the form, their answers are captured and compared with stored friends\' data. The stored friend with the lowest absolute difference from the scores will be returned as the user\'s best possible friend match. This application is organized into an app directory which is subdivided into data, public and routing folders. The data folder holds the stored friends data as an array of objects, the public folder holds the HTML and images while the routing folder holds files defining the API and HTML routes. A server file initializes the server and brings together the other resources as necessary to enable the application\'s functionality.',
             technologies: 'HTML, Bootstrap, JavaScript, jQuery, Node.js, Express, Heroku',
             npmPackages: 'express, path',
             futureDev: '',
-            role: 'Sole developer responsible for design, code and creation of custom graphics.',
+            role: 'Sole developer responsible for code and creation of custom graphics.',
             githubLink: 'https://github.com/lexi-winstanley/friendFinder',
             projectLink: 'https://afternoon-falls-93974.herokuapp.com/',
             javascript: true,
@@ -389,6 +400,7 @@ export default {
             api: true
         },
         {
+            videoSrc: '',
             id: '22',
             imageSrc: 'images/train.svg',
             imageAlt: 'olive green, black and grey train logo',
@@ -402,10 +414,10 @@ export default {
             desktopScreenshotAlt: '',
             title: 'Train Schedule',
             path: '/train-schedule',
-            motivation: '',
+            motivation: 'To create an application that displays train times from a Firebase database and allows site visitors to input in new train data which is saved to the database and then used to calculate the next arrival time and minutes away for each train.',
             description: 'This web application allows visitors to view a table with the names, destinations, frequencies, next arrivals and minutes to next arrivals of current trains stored in its Firebase database. The next arrival and minutes to next arrival columns are updated every 60 seconds. Visitors can also use the form on the page to add new trains to the database. They must provide the name, destination, frequency, and first arrival time. Next arrival time and minutes to next arrival time will be calculated upon data retrieval.',
             technicalInfo: 'Logic was written to capture user inputs and store them in Firebase database. A function is set to run on any changes to the database and then use values to calculate the minutes to next train arrival and next time arriving using the Moment.js library. These values are then dynamically displayed to the HTML in a table.',
-            technologies: 'HTML, CSS, JavaScript, jQuery, Firebase',
+            technologies: 'HTML, CSS, JavaScript, Firebase',
             npmPackages: '',
             futureDev: '',
             role: 'Sole developer responsible for design, code and creation of custom graphics.',
@@ -413,7 +425,7 @@ export default {
             projectLink: 'https://lexi-winstanley.github.io/trainSchedule/',
             javascript: true,
             node: false,
-            jQuery: true,
+            jQuery: false,
             react: false,
             reactNative: false,
             mySQL: false,
@@ -424,6 +436,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '26',
             imageSrc: 'images/sawblade.svg',
             imageAlt: 'saw blade icon',
@@ -437,7 +450,7 @@ export default {
             desktopScreenshotAlt: '',
             title: 'Woodworking Trivia',
             path: '/woodworking-trivia',
-            motivation: '',
+            motivation: 'To create a JavaScript trivia game that displays timed questions for a user to answer, keeps track of number correct/incorrect and displays that information once all questions have been answered.',
             description: 'This trivia game is about woodworking. On page load an instruction screen is displayed. Once the player clicks the "Start Game" button the first question appears. The player is given a certain amount of time in which to answer the question. After they answer or time runs out, the correct answer will be confirmed or shown and a new question will load. The timer will reset each time a new question appears. Once the player has gone through all the questions a screen will display the total correct/incorrect answers. Not answering in the allotted time counts as an incorrect answer.',
             technicalInfo: 'Timeout functions and intervals are used to display the questions and a countdown of time to answer. Once the user answers a page is shown that reveals the correct answer. After a set amount of time the next question is shown and a new countdown begins. Once all the questions have been answered a summary screen is shown and the game is over.',
             technologies: 'HTML, CSS, JavaScript',
@@ -459,6 +472,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '8',
             imageSrc: 'images/pawPrint.svg',
             imageAlt: 'dog paw print icon',
@@ -472,9 +486,9 @@ export default {
             desktopScreenshotAlt: '',
             title: 'Guess that Dog Breed Game',
             path: '/guess-that-dog-breed',
-            motivation: '',
-            description: 'In this application the computer randomly chooses a word from a predefined array of dog breeds, then displays underscores corresponding to the number of letters. The user then presses keys to guess letters that may be in the word. If they guess a letter that is in the word the appropriate blanks are changed to that letter and the number of letters remaining in the word decreases. If they guess a letter that is not in the word it is displayed on the page as an incorrect letter guessed and the number of guesses remaining decreases. \nThe user is allowed 10 incorrect guesses, if they do not guess all the letters in the word before they run out of guesses the number of losses is incremented and the game resets. If they guess the word correctly then the number of wins is incremented and the game resets. \nWhen the game resets the computer randomly chooses a new word from the remaining dog breeds in the array and the incorrect guesses are cleared and number of guesses remaining set back to 10. Each time the computer selects a new word the picture is updated to display a dog of the previous breed (i.e. if the previous word was "poodle" when the computer selects a new word the picture will update to be of a poodle). The computer will go through each word in the array once before beginning to repeat words. There are 20 unique dog breeds in the game.',
-            technicalInfo: 'This application is written with JavaScript. Arrays are used to hold possible words, letters guessed incorrectly and correctly, underscores corresponding to current word and words that have been used since page load. Loops, variables and event listeners (on key up) are used to carry out the logic to determine what the user is guessing and if that guess is correct or not as well as update the HTML elements.',
+            motivation: 'To create a JavaScript game in which blanks are displayed to represent the number of letters in an unknown word and a user then has a limited number of tries to guess the letters correctly to reveal the word.',
+            description: 'This application randomly chooses a word from a predefined array of dog breeds, then displays underscores corresponding to the number of letters. The user then presses keys to guess letters that may be in the word. If they guess a letter that is in the word the appropriate blanks are changed to that letter and the number of letters remaining in the word decreases. If they guess a letter that is not in the word it is displayed on the page as an incorrect lettter guessed and the number of guesses remaining decreases.',
+            technicalInfo: 'This application is written with JavaScript. Arrays are used to hold possible words, letters guessed incorrectly and correctly, underscores corresponding to current word and words that have been used since page load. Loops, variables and event listeners (on key up) are used to carry out the logic to determine what the user is guessing and if that guess is correct or not as well as update the HTML elements. The user is allowed 10 incorrect guesses, if they do not guess all the letters in the word before they run out of guesses the number of losses is incremented and the game resets. If they guess the word correctly then the number of wins is incremented and the game resets. When the game resets the computer randomly chooses a new word from the remaining dog breeds in the array and the incorrect guesses are cleared and number of guesses remaining set back to 10. Each time the computer selects a new word the picture is updated to display a dog of the previous breed (i.e. if the previous word was "poodle" when the computer selects a new word the picture will update to be of a poodle). The computer will go through each word in the array once before beginning to repeat words. There are 20 unique dog breeds in the game.',
             technologies: 'HTML, CSS, JavaScript',
             npmPackages: '',
             futureDev: '',
@@ -494,6 +508,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '17',
             imageSrc: 'images/greenCrystal.svg',
             imageAlt: 'green crystal icon',
@@ -507,9 +522,9 @@ export default {
             desktopScreenshotAlt: '',
             title: 'Crystal Counting',
             path: '/crystal-counting',
-            motivation: '',
-            description: 'This is a JavaScript game utilizing the jQuery library. At the start of the game a target score between 19-120 will be randomly generated. Each of the four crystals will also be assigned a random value 1-12. The crystal values will not be displayed to the player. \nEach time a crystal is clicked its value will be added to the current score. The object of the game is to click on the crystals in such a way that the sum of all the crystals clicked equals the target score; this will constitute a win for the player which will be displayed at the bottom of the page. If the current score goes over the target score the game ends and the player loses; the losses display at the bottom of the page will be incremented. \nOnce the player wins or loses a new target score and crystal values will be generated.',
-            technicalInfo: '',
+            motivation: 'To create a simple game utilizing jQuery in which the goal is to click the crystals, which have unknown values, in such a way that the sum equals the randomly generated target score.',
+            description: 'At the start of the game a target score will be randomly generated. Each of the four crystals will also be assigned a random value not displayed to the player. Each time a crystal is clicked its value will be added to the current score. The object of the game is to click on the crystals in such a way that the sum of all the crystals clicked equals the target score.',
+            technicalInfo: 'This is a JavaScript game utilizing the jQuery library. On page load, a random target score is generated between 19 and 120 using Math.random(). Random values are generated between 1 and 12 for each of the crystals using the same method and added to an array to be assigned. The target score and current score are displayed to the player while the crystal values are not. Each time a crystal is clicked a function runs to add its secret value will be added to the current score. With this information a player can use logic to figure out the crystal values and successfully reach the target score--or they can click randomly and hope for the best! If, after a click, the current score equals the target score, the player has won and the wins displayed at the bottom of the page will be incremented. If the current score goes over the target score the player has lost and the losses displayed at the bottom of the page will be incremented. Once the player wins or loses a new target score and crystal values will be generated.',
             technologies: 'HTML, CSS, JavaScript, jQuery',
             npmPackages: '',
             futureDev: '',
@@ -529,6 +544,7 @@ export default {
             api: false
         },
         {
+            videoSrc: '',
             id: '27',
             imageSrc: 'images/crystalBall.svg',
             imageAlt: 'crystal ball icon',
@@ -542,9 +558,9 @@ export default {
             desktopScreenshotAlt: '',
             title: 'Letter Guessing Game',
             path: '/letter-guessing-game',
-            motivation: '',
-            description: 'This is a JavaScript game in which the computer will choose a letter from the alphabet and the user will then press keys to guess what the letter is. The user will have 9 tries to guess the letter correctly. Incorrect guesses will display on the page and the number of remaining guesses will decrease. If the user is not able to guess the letter in 9 tries the number of losses will increment and the display will update. If the user guesses the letter correctly, the number of wins will increment and the display will update. The computer then chooses a new letter and the number of guesses remaining resets to 9 and the incorrect guesses are cleared.',
-            technicalInfo: '',
+            motivation: 'To create a simple game using JavaScript in which the goal is for the player to press keys to correctly guess which letter has been randomly selected by the application.',
+            description: 'A JavaScript game in which a player has 9 chances to guess which letter has been randomly selected by the application. Once the player is successful or runs out of guesses the game restarts.',
+            technicalInfo: 'The application uses Math.random() to choose a value between 97 and 122 corresponding to the Ascii codes for the lowercase alphabet. The corresponding letter is stored in a variable as a string so that player guesses can be compared against it. The player has up to 9 tries to guess the correct letter. Each time the player presses a key the event is captured. The application then checks to see if the key pressed was a lowercase letter and makes sure the player has not already guessed it by comparing it to an array of previous guesses. If these conditions are met the value is compared against the stored target letter. If the values match the player wins, the number of wins displayed will increment and the game will restart. If the user\'s guess is incorrect but they have remaining guesses, the value is added to the array of previous guesses. Each time a letter is added to the previous guesses array, the number of remaining guesses decrements. If the player has no remaining guesses, the game is over. The number of losses displayed will increment and the game will restart. When the game restarts the application chooses a new letter, the number of guesses remaining resets to 9 and the incorrect guesses are cleared.',
             technologies: 'HTML, CSS, JavaScript',
             npmPackages: '',
             futureDev: '',

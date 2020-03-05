@@ -24,16 +24,16 @@ const ProjectInfo = props => {
                     <EqualColumn importStyle={{paddingRight: ".75rem"}}>
                         <h2 className="projectSubheading" style={styles.importedTextColor}>Technologies: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{props.technologies}</p>
-                        <h2 className="projectSubheading" style={styles.importedTextColor}>Description: </h2>
+                        <h2 className="projectSubheading" style={styles.importedTextColor}>Overview: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{props.description}</p>
                         {props.desktopSrc ? <DesktopScreenshot desktopSrc={props.desktopSrc} desktopScreenshotSrc={props.desktopScreenshotSrc} desktopScreenshotAlt={props.desktopScreenshotAlt}/> : <></>}
-                        <h2 className="projectSubheading" style={styles.importedTextColor}>Technical Information: </h2>
+                        <h2 className="projectSubheading" style={styles.importedTextColor}>Details: </h2>
                         <p className="projectText" style={styles.importedTextColor}>{props.technicalInfo}</p>
                         <h2 className="projectExternalLink" style={styles.importedTextColor}><a href={props.githubLink} style={styles.importedTextColor}>Github Repository</a></h2>
                         <h2 className="projectExternalLink" style={styles.importedTextColor}><a href={props.projectLink} style={styles.importedTextColor}>Live Project</a></h2>
                     </EqualColumn>
                     <div className="projectColumn">
-                        {props.mobileSrc ? <MobileScreenshot mobileSrc={props.mobileSrc} mobileScreenshotSrc={props.mobileScreenshotSrc} mobileScreenshotAlt={props.mobileScreenshotAlt}/> : <></>}
+                        {props.videoSrc ? <MobileScreenshot mobileSrc={props.mobileSrc} mobileScreenshotSrc={props.mobileScreenshotSrc} mobileScreenshotAlt={props.mobileScreenshotAlt} videoSrc={props.videoSrc}/> : <MobileScreenshot mobileSrc={props.mobileSrc} mobileScreenshotSrc={props.mobileScreenshotSrc} mobileScreenshotAlt={props.mobileScreenshotAlt} />}
 
                         <div className="projectImageContainerFav">
                             <img className="projectImageFav" src={props.imageSrc} alt={props.imageAlt}/>
