@@ -147,3 +147,13 @@ p {
     font-size: 30pt;
   }
 }
+@media screen and (min-width: 2000px) and (max-width: 2499.99px) {
+  html, body {
+    font-size: 30pt;
+  }
+}
+@media screen and (min-width: 1680px) {
+  html, body {
+    font-size: 26pt;
+  }
+}

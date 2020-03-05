@@ -14,7 +14,7 @@ const Header = props => {
                 <Logo/>
                 <NavigationMenu/>
                 <div className="resumeButton">
-                    <Button backgroundColor="#0F0F0D" textColor="#f8f7f7" onClickFunction={'none'}>
+                    <Button backgroundColor="#0F0F0D" textColor="#f8f7f7" onClickFunction={'none'} extraClass="sidebarResume">
                         <Link to="/files/LexiWinstanley_Resume.pdf" target="_blank">R&#201;sum&#201;</Link>
                     </Button>
                 </div>

@@ -13,6 +13,9 @@
     align-items: center;
     align-self: flex-start;
     justify-content: flex-start;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
 }
 .menuContainer:hover + .introContainer {
     display: flex;
@@ -38,4 +41,26 @@
     color: #f8f7f7;
     text-decoration: none;
     font-weight: 400;
+}
+@media screen and (min-width: 1680px) {
+    .header {
+        width: 20%;
+        height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+    .menuContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        align-self: center;
+    }
+    .resumeButton {
+        width: 100%;
+    }
+    .sidebarResume {
+        margin: 0;
+    }
 }

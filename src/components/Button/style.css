@@ -21,3 +21,16 @@
     transform: scale(1.05);
     transition: transform 1s;
 }
+@media screen and (min-width: 1680px) {
+    .sidebarResume {
+        margin: 1rem 0 2rem 0;
+        flex: 1;
+    }
+    .sidebarResume:hover {
+        transform: scale(1.05);
+        transition: transform 1s;
+    }
+    .headerButton {
+        flex-basis: 100%;
+    }
+}

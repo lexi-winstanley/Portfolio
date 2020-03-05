@@ -38,7 +38,7 @@ const ProjectPage = props => {
         return (
             <>
             <Header/>
-            <div className="pageContainer" style={styles.importedColor}>
+            <div className="pageContainer mainHorizontalPadding" style={styles.importedColor}>
                 <div className="pageBanner" >
                     <Link to='/' className="closeButton">
                         <div className="arrowBack" style={styles.importedArrowColors}></div>
