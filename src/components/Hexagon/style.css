@@ -1,6 +1,4 @@
 .hexagonContainer {
-    width: 20%;
-    /*width: 33.33%3333%;*/
     display: flex;
     justify-content: center;
     align-items: flex-start;

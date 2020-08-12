@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const Button = props => {
-    let buttonClass = props.extraClass ?  'coloredButton ' + props.extraClass : 'coloredButton' ;
+    let buttonClass = props.extraClass ?  props.extraClass + ' coloredButton ' : 'coloredButton' ;
     const styles = {
         importedColor: {
             backgroundColor: props.backgroundColor,

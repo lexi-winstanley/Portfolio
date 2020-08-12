@@ -1,6 +1,6 @@
 .imageLink {
-    width: 8%;
-    padding: .5rem 1.5rem;
+    width: 5.5rem;
+    padding: 0rem 1.5rem .2rem 1.5rem;
     color: #f8f7f7;
 }
 .imageLink:hover {

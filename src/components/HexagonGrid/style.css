@@ -1,30 +1,27 @@
 .hexagonGrid {
-    width: 120%;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10%;
-    margin-bottom: -9.55%;
 }
+
 /*!*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*!*/
-.hexagonGrid .hexagonContainer:nth-child(7n+1) {
-    margin: -8.660254% 0 0 15%;
-}
-.hexagonGrid .hexagonContainer:nth-child(7n+2) {
-    margin: -8.660254% 0 0 10%;
-}
-.hexagonGrid .hexagonContainer:nth-child(7n+3) {
-    margin: -8.660254% 0 0 10%;
-}
-.hexagonGrid .hexagonContainer:nth-child(7n+4) {
-    margin: -8.660254% 10% 0% 0%;
-}
-.hexagonGrid .hexagonContainer:nth-child(7n+5) {
-    margin: -8.660254% 10% 0 0%;
-}
-.hexagonGrid .hexagonContainer:nth-child(7n+6) {
-    margin: -8.660254% 10% 0 0%;
-}
-.hexagonGrid .hexagonContainer:nth-child(7n+7) {
-    margin: -8.660254% -10% 0 0%;
+
+@media screen {
+    .hexagonGrid {
+        width: 130%;
+        margin-left: -10%;
+        margin-bottom: -22%;
+        margin-right: -16%;
+        margin-top: -11%;
+    }
+    .hexagonGrid .hexagonContainer {
+        width: 20%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(2n+1) {
+        margin: -8.660254% 0 0 0%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(2n) {
+        margin: 0% -5% 0 -5%;
+    }
+
 }

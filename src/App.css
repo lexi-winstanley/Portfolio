@@ -152,8 +152,18 @@ p {
     font-size: 30pt;
   }
 }
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1680px) and (max-width: 1999.99px) {
   html, body {
     font-size: 26pt;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1679.99px){
+  html, body {
+    font-size: 22pt;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1279.99px){
+  html, body {
+    font-size: 18pt;
   }
 }

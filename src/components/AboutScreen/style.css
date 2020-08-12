@@ -16,3 +16,16 @@
     color: #f8f7f7;
     padding-left: .75rem;
 }
+@media screen and (min-width: 0px) and (max-width: 899.99px){
+    .professionalImageContainer {
+        flex: .75;
+        margin: .5rem 0 0 .75rem;
+        order: 2;
+    }
+    .introParagraph {
+        flex: 1;
+        color: #f8f7f7;
+        padding-right: .75rem;
+        padding-left: 0;
+    }
+}

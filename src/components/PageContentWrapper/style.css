@@ -19,3 +19,11 @@
         padding-top: 0;
     }
 }
+@media screen and (min-width: 0px) and (max-width: 1679.99px){
+    .pageContentContainer {
+        padding-top: 5.25rem;
+    }
+    .extraPaddingTop {
+        padding-top: 9.25rem;
+    }
+}
