@@ -6,7 +6,7 @@
 
 /*!*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*!*/
 
-@media screen {
+@media screen and (min-width: 775px){
     .hexagonGrid {
         width: 130%;
         margin-left: -10%;
@@ -24,4 +24,22 @@
         margin: 0% -5% 0 -5%;
     }
 
+}
+@media screen and (min-width: 400px) and (max-width: 774.99px) {
+    .hexagonGrid {
+        width: 130%;
+        margin-left: -20%;
+        margin-bottom: -22%;
+        margin-right: -16%;
+        margin-top: 0%;
+    }
+    .hexagonGrid .hexagonContainer {
+        width: 33.33333%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(2n+1) {
+        margin: -14.4337565223291% 0 0 0%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(2n) {
+        margin: 0% -8.3333325% 0 -8.3333325%;
+    }
 }

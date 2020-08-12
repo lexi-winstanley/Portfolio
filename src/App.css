@@ -157,13 +157,19 @@ p {
     font-size: 26pt;
   }
 }
-@media screen and (min-width: 1280px) and (max-width: 1679.99px){
+@media screen and (min-width: 1180px) and (max-width: 1679.99px){
   html, body {
-    font-size: 22pt;
+    font-size: 20pt;
   }
 }
-@media screen and (min-width: 900px) and (max-width: 1279.99px){
+@media screen and (min-width: 900px) and (max-width: 1179.99px){
   html, body {
-    font-size: 18pt;
+    font-size: 16pt;
   }
 }
+@media screen and (min-width: 600px) and (max-width: 899.99px){
+  html, body {
+    font-size: 14pt;
+  }
+}
+
