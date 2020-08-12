@@ -4,42 +4,128 @@
     flex-wrap: wrap;
 }
 
-/*!*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*!*/
-
 @media screen and (min-width: 775px){
     .hexagonGrid {
-        width: 130%;
+        width: 120%;
         margin-left: -10%;
-        margin-bottom: -22%;
-        margin-right: -16%;
-        margin-top: -11%;
+        margin-bottom: -9.55%;
     }
     .hexagonGrid .hexagonContainer {
         width: 20%;
     }
-    .hexagonGrid .hexagonContainer:nth-child(2n+1) {
-        margin: -8.660254% 0 0 0%;
+    /*!*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*!*/
+    .hexagonGrid .hexagonContainer:nth-child(7n+1) {
+        margin: -8.660254% 0 0 15%;
     }
-    .hexagonGrid .hexagonContainer:nth-child(2n) {
-        margin: 0% -5% 0 -5%;
+    .hexagonGrid .hexagonContainer:nth-child(7n+2) {
+        margin: -8.660254% 0 0 10%;
     }
-
+    .hexagonGrid .hexagonContainer:nth-child(7n+3) {
+        margin: -8.660254% 0 0 10%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(7n+4) {
+        margin: -8.660254% 10% 0% 0%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(7n+5) {
+        margin: -8.660254% 10% 0 0%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(7n+6) {
+        margin: -8.660254% 10% 0 0%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(7n+7) {
+        margin: -8.660254% -10% 0 0%;
+    }
 }
-@media screen and (min-width: 400px) and (max-width: 774.99px) {
+@media screen and (min-width: 0px) and (max-width: 774.99px) {
     .hexagonGrid {
-        width: 130%;
-        margin-left: -20%;
-        margin-bottom: -22%;
+        width: 120%;
+        margin-left: -4%;
         margin-right: -16%;
-        margin-top: 0%;
+        margin-bottom: -9.55%;
     }
     .hexagonGrid .hexagonContainer {
         width: 33.33333%;
     }
-    .hexagonGrid .hexagonContainer:nth-child(2n+1) {
-        margin: -14.4337565223291% 0 0 0%;
+    .hexagonGrid .hexagonContainer:nth-child(4n+1) {
+        margin: -14.4337565223291% 0 0 16.666665%;
     }
-    .hexagonGrid .hexagonContainer:nth-child(2n) {
-        margin: 0% -8.3333325% 0 -8.3333325%;
+    .hexagonGrid .hexagonContainer:nth-child(4n+2) {
+        margin: -14.4337565223291% 0 0 16.666665%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(4n+3) {
+        margin: -14.4337565223291% 0 0 -8.3333325%;
+    }
+    .hexagonGrid .hexagonContainer:nth-child(4n+4) {
+        margin: -14.4337565223291% 0% 0% 16.666665%;
     }
 }
+
+
+
+
+
+
+
+/*@media screen and (min-width: 400px) and (max-width: 774.99px) {*/
+    /*.hexagonGrid {*/
+        /*width: 120%;*/
+        /*margin-left: -10%;*/
+        /*margin-bottom: -9.55%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer {*/
+        /*width: 40%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer:nth-child(4n) {*/
+        /*margin: -17.320508% 0 0 15%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer:nth-child(4n+2) {*/
+        /*margin: -17.320508% 0 0 20%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer:nth-child(4n+3) {*/
+        /*margin: -17.320508% 0 0 20%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer:nth-child(4n+4) {*/
+        /*margin: -17.320508% 10% 0% 0%;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (min-width: 400px) and (max-width: 774.99px) {*/
+    /*.hexagonGrid {*/
+        /*width: 200%;*/
+        /*margin-left: -20%;*/
+        /*margin-bottom: -22%;*/
+        /*margin-right: -16%;*/
+        /*margin-top: 0%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer {*/
+        /*width: 33.33333%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer:nth-child(2n+1) {*/
+        /*margin: -14.4337565223291% 0 0 0%;*/
+    /*}*/
+    /*.hexagonGrid .hexagonContainer:nth-child(2n) {*/
+        /*margin: 0% -8.3333325% 0 -8.3333325%;*/
+    /*}*/
+/*}*/
+
+/*!*negative top margin below calculated by multiplying .hexagonContainer width by .8660254 then dividing by 2*!*/
+
+/*@media screen and (min-width: 775px){*/
+/*.hexagonGrid {*/
+/*width: 200%;*/
+/*margin-left: -10%;*/
+/*margin-bottom: -22%;*/
+/*margin-right: -16%;*/
+/*margin-top: -11%;*/
+/*}*/
+/*.hexagonGrid .hexagonContainer {*/
+/*width: 20%;*/
+/*}*/
+/*.hexagonGrid .hexagonContainer:nth-child(2n+1) {*/
+/*margin: -8.660254% 0 0 0%;*/
+/*}*/
+/*.hexagonGrid .hexagonContainer:nth-child(2n) {*/
+/*margin: 0% -5% 0 -5%;*/
+/*}*/
+
+/*}*/

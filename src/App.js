@@ -12,7 +12,7 @@ import FullPageIntro from './components/FullPageIntro';
 
 class App extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             introVisible: true
         }
