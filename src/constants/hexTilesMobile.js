@@ -1,4 +1,5 @@
 export default {
+    //starting with 5 and 8 then add 4
     hexTiles: [
         {
             //cutoff
@@ -23,12 +24,11 @@ export default {
             path: '/'
         },
         {
-            //cutoff
             id: '3',
             imageSrc: '',
             imageAlt: '',
-            background: '#45bce5',
-            textColor: '#0F0F0D',
+            background: '#680a4d',
+            textColor: '#f8f7f7',
             title: '',
             technologies: '',
             path: '/'
@@ -45,22 +45,21 @@ export default {
             path: '/'
         },
         {
-            //cutoff
             id: '5',
-            imageSrc: '',
-            imageAlt: '',
-            background: '#cbc5ef',
+            imageSrc: 'images/threeScoreRub.svg',
+            imageAlt: 'Three Score Rub Original jar icon',
+            background: '#0072bb',
             textColor: '#f8f7f7',
-            title: '',
-            technologies: '',
-            path: '/'
+            title: 'Three Score Rub',
+            technologies: 'HTML, CSS',
+            path: '/three-score-rub'
         },
         {
             //cutoff
             id: '6',
             imageSrc: '',
             imageAlt: '',
-            background: '#45bce5',
+            background: '#cbc5ef',
             textColor: '#0F0F0D',
             title: '',
             technologies: '',
@@ -71,8 +70,8 @@ export default {
             id: '7',
             imageSrc: '',
             imageAlt: '',
-            background: '#cbc5ef',
-            textColor: '#f8f7f7',
+            background: '#45bce5',
+            textColor: '#0F0F0D',
             title: '',
             technologies: '',
             path: '/'
@@ -89,6 +88,17 @@ export default {
         },
         {
             id: '9',
+            imageSrc: 'images/bri-spy.svg',
+            imageAlt: 'bri-spy icon',
+            background: '#FC354C',
+            textColor: '#f8f7f7',
+            title: 'bri-SPY',
+            technologies: 'React Native, Expo, Node.js, MongoDB',
+            path: '/bri-spy'
+        },
+        {
+            //cutoff
+            id: '10',
             imageSrc: '',
             imageAlt: '',
             background: '#0cb2ba',
@@ -96,16 +106,6 @@ export default {
             title: '',
             technologies: '',
             path: '/'
-        },
-        {
-            id: '10',
-            imageSrc: 'images/packIt.svg',
-            imageAlt: '',
-            background: '#680a4d',
-            textColor: '#f8f7f7',
-            title: 'Pack It!',
-            technologies: 'OpenWeatherMap API, Webcams.Travel API, Materialize, jQuery',
-            path: '/pack-it'
         },
         {
             //cutoff
@@ -119,8 +119,28 @@ export default {
             path: '/'
         },
         {
-            //cutoff
             id: '12',
+            imageSrc: 'images/urbanPrairieWheat.svg',
+            imageAlt: '',
+            background: '#0072bb',
+            textColor: '#f8f7f7',
+            title: 'Urban Prairie Homes',
+            technologies: 'React, Amazon S3',
+            path: '/urban-prairie-homes'
+        },
+        {
+            id: '13',
+            imageSrc: 'images/packIt.svg',
+            imageAlt: '',
+            background: '#680a4d',
+            textColor: '#f8f7f7',
+            title: 'Pack It!',
+            technologies: 'OpenWeatherMap API, Webcams.Travel API, Materialize, jQuery',
+            path: '/pack-it'
+        },
+        {
+            //cutoff
+            id: '14',
             imageSrc: '',
             imageAlt: '',
             background: '#FC354C',
@@ -131,17 +151,17 @@ export default {
         },
         {
             //cutoff
-            id: '13',
+            id: '15',
             imageSrc: '',
             imageAlt: '',
-            background: '#FC354C',
-            textColor: '#f8f7f7',
+            background: '#cbc5ef',
+            textColor: '#0F0F0D',
             title: '',
             technologies: '',
             path: '/'
         },
         {
-            id: '14',
+            id: '16',
             imageSrc: 'images/chapterToo.svg',
             imageAlt: 'Chapter Too white and grey sailboat icon',
             background: '#041232',
@@ -152,34 +172,14 @@ export default {
         },
 
         {
-            id: '15',
-            imageSrc: 'images/urbanPrairieWheat.svg',
-            imageAlt: '',
-            background: '#0072bb',
-            textColor: '#f8f7f7',
-            title: 'Urban Prairie Homes',
-            technologies: 'React, Amazon S3',
-            path: '/urban-prairie-homes'
-        },
-        {
-            id: '16',
-            imageSrc: 'images/gifGenerator.svg',
-            imageAlt: 'gif generator icon',
-            background: '#041232',
-            textColor: '#f8f7f7',
-            title: 'GIF Generator',
-            technologies: 'Giphy API, JavaScript, jQuery, ',
-            path: '/gif-generator'
-        },
-        {
             id: '17',
-            imageSrc: 'images/threeScoreDev.svg',
-            imageAlt: 'compass inspired black and green Three Score Development logo',
-            background: '#cbc5ef',
+            imageSrc: 'images/somethingBorrowed.svg',
+            imageAlt: 'handshake logo in navy blue and shades of orange',
+            background: '#45bce5',
             textColor: '#0F0F0D',
-            title: 'Three Score Development',
-            technologies: 'HTML, CSS',
-            path: '/three-score-development'
+            title: 'Something Borrowed',
+            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
+            path: '/something-borrowed'
         },
         {
             //cutoff
@@ -204,7 +204,18 @@ export default {
             path: '/'
         },
         {
+            //content
             id: '20',
+            imageSrc: 'images/threeScoreDev.svg',
+            imageAlt: 'compass inspired black and green Three Score Development logo',
+            background: '#cbc5ef',
+            textColor: '#0F0F0D',
+            title: 'Three Score Development',
+            technologies: 'HTML, CSS',
+            path: '/three-score-development'
+        },
+        {
+            id: '21',
             imageSrc: 'images/friendFinder.svg',
             imageAlt: 'friend finder icon',
             background: '#680a4d',
@@ -214,38 +225,8 @@ export default {
             path: '/friend-finder'
         },
         {
-            id: '21',
-            imageSrc: 'images/bri-spy.svg',
-            imageAlt: 'bri-spy icon',
-            background: '#FC354C',
-            textColor: '#f8f7f7',
-            title: 'bri-SPY',
-            technologies: 'React Native, Expo, Node.js, MongoDB',
-            path: '/bri-spy'
-        },
-        {
-            id: '22',
-            imageSrc: 'images/train.svg',
-            imageAlt: 'olive green, black and grey train logo',
-            background: '#cbc5ef',
-            textColor: '#0F0F0D',
-            title: 'Train Schedule',
-            technologies: 'JavaScript, jQuery, Firebase',
-            path: '/train-schedule'
-        },
-        {
-            id: '23',
-            imageSrc: 'images/somethingBorrowed.svg',
-            imageAlt: 'handshake logo in navy blue and shades of orange',
-            background: '#45bce5',
-            textColor: '#0F0F0D',
-            title: 'Something Borrowed',
-            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
-            path: '/something-borrowed'
-        },
-        {
             //cutoff
-            id: '24',
+            id: '22',
             imageSrc: '',
             imageAlt: '',
             background: '#b5ca30',
@@ -255,35 +236,55 @@ export default {
             path: '/'
         },
         {
-            //cutoff
-            id: '25',
+            id: '23',
             imageSrc: '',
             imageAlt: '',
-            background: '#041232',
+            background: '#0072bb',
             textColor: '#f8f7f7',
             title: '',
             technologies: '',
             path: '/'
         },
         {
-            id: '26',
-            imageSrc: 'images/threeScoreRub.svg',
-            imageAlt: 'Three Score Rub Original jar icon',
-            background: '#0072bb',
+            id: '24',
+            imageSrc: 'images/gifGenerator.svg',
+            imageAlt: 'gif generator icon',
+            background: '#041232',
             textColor: '#f8f7f7',
-            title: 'Three Score Rub',
-            technologies: 'HTML, CSS',
-            path: '/three-score-rub'
+            title: 'GIF Generator',
+            technologies: 'Giphy API, JavaScript, jQuery, ',
+            path: '/gif-generator'
         },
         {
-            id: '27',
-            imageSrc: 'images/sawblade.svg',
-            imageAlt: 'saw blade icon',
-            background: '#0cb2ba',
+            id: '25',
+            imageSrc: 'images/greenCrystal.svg',
+            imageAlt: 'green crystal icon',
+            background: '#FC354C',
             textColor: '#f8f7f7',
-            title: 'Woodworking Trivia',
-            technologies: 'HTML, CSS, JavaScript',
-            path: '/woodworking-trivia'
+            title: 'Crystal Counting',
+            technologies: 'HTML, CSS, JavaScript, jQuery',
+            path: '/crystal-counting'
+        },
+        {
+            id: '26',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#680a4d',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            //cutoff
+            id: '27',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#45bce5',
+            textColor: '#0F0F0D',
+            title: '',
+            technologies: '',
+            path: '/'
         },
         {
             id: '28',
@@ -321,7 +322,7 @@ export default {
             id: '31',
             imageSrc: '',
             imageAlt: '',
-            background: '#b5ca30',
+            background: '#041232',
             textColor: '#f8f7f7',
             title: '',
             technologies: '',
@@ -338,15 +339,14 @@ export default {
             path: '/letter-guessing-game'
         },
         {
-            //cutoff
             id: '33',
-            imageSrc: '',
-            imageAlt: '',
-            background: '#45bce5',
-            textColor: '#0F0F0D',
-            title: '',
-            technologies: '',
-            path: '/'
+            imageSrc: 'images/sawblade.svg',
+            imageAlt: 'saw blade icon',
+            background: '#0cb2ba',
+            textColor: '#f8f7f7',
+            title: 'Woodworking Trivia',
+            technologies: 'HTML, CSS, JavaScript',
+            path: '/woodworking-trivia'
         },
         {
             //cutoff
@@ -361,25 +361,25 @@ export default {
         },
         {
             id: '35',
-            imageSrc: 'images/greenCrystal.svg',
-            imageAlt: 'green crystal icon',
-            background: '#FC354C',
-            textColor: '#f8f7f7',
-            title: 'Crystal Counting',
-            technologies: 'HTML, CSS, JavaScript, jQuery',
-            path: '/crystal-counting'
-        },
-        {
-            //cutoff
-            id: '36',
             imageSrc: '',
             imageAlt: '',
-            background: '#cbc5ef',
-            textColor: '#0F0F0D',
+            background: '#FC354C',
+            textColor: '#f8f7f7',
             title: '',
             technologies: '',
             path: '/'
-        },        {
+        },
+        {
+            id: '36',
+            imageSrc: 'images/train.svg',
+            imageAlt: 'olive green, black and grey train logo',
+            background: '#cbc5ef',
+            textColor: '#0F0F0D',
+            title: 'Train Schedule',
+            technologies: 'JavaScript, jQuery, Firebase',
+            path: '/train-schedule'
+        },
+        {
             //cutoff
             id: '37',
             imageSrc: '',
@@ -395,56 +395,11 @@ export default {
             id: '38',
             imageSrc: '',
             imageAlt: '',
-            background: '#041232',
-            textColor: '#f8f7f7',
-            title: '',
-            technologies: '',
-            path: '/'
-        },
-        {
-            //cutoff
-            id: '39',
-            imageSrc: '',
-            imageAlt: '',
             background: '#b5ca30',
             textColor: '#f8f7f7',
             title: '',
             technologies: '',
             path: '/'
-        },
-        {
-            //cutoff
-            id: '40',
-            imageSrc: '',
-            imageAlt: '',
-            background: '#cbc5ef',
-            textColor: '#0F0F0D',
-            title: '',
-            technologies: '',
-            path: '/'
-        },
-        {
-            //cutoff
-            id: '41',
-            imageSrc: '',
-            imageAlt: '',
-            background: '#680a4d',
-            textColor: '#f8f7f7',
-            title: '',
-            technologies: '',
-            path: '/'
-        },
-        {
-            //cutoff
-            id: '42',
-            imageSrc: '',
-            imageAlt: '',
-            background: '#FC354C',
-            textColor: '#f8f7f7',
-            title: '',
-            technologies: '',
-            path: '/'
         }
-        //end on multiple of 7n+3 or 7n
     ]
 }

@@ -13,14 +13,19 @@ class HexagonGrid extends Component {
         }
     };
 
-    throttledHandleWindowResize = () => {
-        return throttle(() => {
-            this.setState({ isMobile: window.innerWidth < 480 })
-        }, 200);
-    };
+    throttledHandleWindowResize = throttle(() => {
+            this.setState({ isMobile: window.innerWidth < 775 })
+        }, 50);
+
+
+    //
+    // throttledHandleWindowResize = () => {
+    //     this.setState({ isMobile: window.innerWidth < 775 });
+    // };
 
     componentDidMount() {
         window.addEventListener('resize', this.throttledHandleWindowResize);
+        this.setState({ isMobile: window.innerWidth < 775 });
     }
 
     componentWillUnmount() {
