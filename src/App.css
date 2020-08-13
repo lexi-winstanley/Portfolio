@@ -159,12 +159,12 @@ p {
 }
 @media screen and (min-width: 1180px) and (max-width: 1679.99px){
   html, body {
-    font-size: 20pt;
+    font-size: 18pt;
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1179.99px){
   html, body {
-    font-size: 16pt;
+    font-size: 14pt;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899.99px){

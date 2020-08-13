@@ -169,17 +169,16 @@ export default {
             title: 'Chapter Too Travel Blog',
             technologies: 'HTML, CSS',
             path: '/chapter-too'
-        },
-
-        {
+        },        {
+            //cutoff
             id: '17',
-            imageSrc: 'images/somethingBorrowed.svg',
-            imageAlt: 'handshake logo in navy blue and shades of orange',
+            imageSrc: '',
+            imageAlt: '',
             background: '#45bce5',
             textColor: '#0F0F0D',
-            title: 'Something Borrowed',
-            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
-            path: '/something-borrowed'
+            title: '',
+            technologies: '',
+            path: '/'
         },
         {
             //cutoff
@@ -380,15 +379,14 @@ export default {
             path: '/train-schedule'
         },
         {
-            //cutoff
             id: '37',
-            imageSrc: '',
-            imageAlt: '',
+            imageSrc: 'images/somethingBorrowed.svg',
+            imageAlt: 'handshake logo in navy blue and shades of orange',
             background: '#45bce5',
             textColor: '#0F0F0D',
-            title: '',
-            technologies: '',
-            path: '/'
+            title: 'Something Borrowed',
+            technologies: 'Handlebars, jQuery, MySQL, Node.js, Express',
+            path: '/something-borrowed'
         },
         {
             //cutoff
@@ -396,6 +394,47 @@ export default {
             imageSrc: '',
             imageAlt: '',
             background: '#b5ca30',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            id: '39',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#680a4d',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            id: '40',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#0072bb',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            //cutoff
+            id: '41',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#041232',
+            textColor: '#f8f7f7',
+            title: '',
+            technologies: '',
+            path: '/'
+        },
+        {
+            id: '42',
+            imageSrc: '',
+            imageAlt: '',
+            background: '#FC354C',
             textColor: '#f8f7f7',
             title: '',
             technologies: '',

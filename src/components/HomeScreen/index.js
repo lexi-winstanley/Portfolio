@@ -3,6 +3,7 @@ import './style.css';
 import Header from '../Header';
 import FlexContainer from '../FlexContainer';
 import HexagonGrid from '../HexagonGrid';
+import Footer from "../Footer";
 
 const HomeScreen = props => {
         return (
@@ -11,6 +12,7 @@ const HomeScreen = props => {
                 <FlexContainer>
                     <HexagonGrid/>
                 </FlexContainer>
+                <Footer/>
             </>
         );
     };
