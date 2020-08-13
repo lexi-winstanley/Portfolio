@@ -11,3 +11,10 @@
         flex-direction: column;
     }
 }
+@media screen and (min-width: 0px) and (max-width: 774.99px) {
+    .navigationMenu {
+        justify-content: center;
+        padding: .75rem 0 .5rem 0;
+        width: 100%;
+    }
+}

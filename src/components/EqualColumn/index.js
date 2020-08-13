@@ -2,8 +2,9 @@ import React from 'react';
 import './style.css';
 
 const EqualColumn = props => {
+    let extraClass = props.columnClass ?  props.columnClass + ' equalColumn ' : 'equalColumn' ;
     return (
-        <div className="equalColumn" style={props.importStyle}>{props.children}</div>
+        <div className={extraClass} style={props.importStyle}>{props.children}</div>
     )
 };
 

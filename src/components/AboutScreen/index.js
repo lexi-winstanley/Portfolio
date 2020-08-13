@@ -4,6 +4,7 @@ import PageContentWrapper from '../PageContentWrapper';
 import Header from '../Header';
 import ExperienceSection from '../ExperienceSection';
 import experiences from '../../constants/experiences';
+import Footer from "../Footer";
 
 const AboutScreen = props => {
     let content = experiences.experiences.map(experience => (
@@ -35,6 +36,7 @@ const AboutScreen = props => {
                 {content}
             </div>
         </PageContentWrapper>
+        <Footer/>
         </>
     )
 };

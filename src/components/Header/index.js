@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './style.css';
 import Logo from '../Logo';
 import NavigationMenu from '../NavigationMenu';
@@ -7,13 +7,21 @@ import {Link} from 'react-router-dom';
 import ButtonContainer from '../ButtonBar';
 
 const Header = props => {
+    const [menuToggle, setMenuToggle] = useState(false);
     const click = props.onFilterButton;
+    const toggleMenu = (event) => {
+        event.preventDefault();
+        setMenuToggle(!menuToggle);
+    };
     return (
         <div className="header">
             <div className="menuContainer">
                 <Logo/>
-                <NavigationMenu/>
-                <div className="resumeButton">
+                <div className={menuToggle === false ? "mobileMenuToggle rotate" : "mobileMenuToggle"} onClick={toggleMenu}>|&#8239;|&#8239;|</div>
+                <div className={menuToggle === false ? "menuHidden" : "menuVisible"}>
+                    <NavigationMenu/>
+                </div>
+                <div className={menuToggle === false ? "menuHidden resumeButton" : "menuVisible resumeButton"}>
                     <Button backgroundColor="#0F0F0D" textColor="#f8f7f7" onClickFunction={'none'} extraClass="sidebarResume">
                         <Link to="/files/LexiWinstanley_Resume.pdf" target="_blank">R&#201;sum&#201;</Link>
                     </Button>

@@ -18,11 +18,6 @@ class HexagonGrid extends Component {
         }, 50);
 
 
-    //
-    // throttledHandleWindowResize = () => {
-    //     this.setState({ isMobile: window.innerWidth < 775 });
-    // };
-
     componentDidMount() {
         window.addEventListener('resize', this.throttledHandleWindowResize);
         this.setState({ isMobile: window.innerWidth < 775 });

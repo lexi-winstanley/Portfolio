@@ -43,6 +43,22 @@
 .resumeButton button {
     margin: .5rem 1.5rem;
 }
+.mobileMenuToggle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: none;
+    padding: 0 0 0 .25rem;
+}
+.rotate {
+    padding: 0 0 .5rem .25rem;
+    transform: rotate(90deg);
+    transition: transform .5s;
+}
+.menuHidden {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 @media screen and (min-width: 1680px) {
     .header {
         width: 20%;
@@ -63,5 +79,29 @@
     }
     .sidebarResume {
         margin: 0;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 774.99px) {
+    .menuContainer {
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        align-self: center;
+        justify-content: center;
+    }
+    .resumeButton {
+        justify-content: center;
+    }
+    .mobileMenuToggle {
+        display: block;
+    }
+    .menuHidden {
+        display: none;
+        width: 100%;
+    }
+    .menuVisible {
+        display: flex;
+        width: 100%;
     }
 }

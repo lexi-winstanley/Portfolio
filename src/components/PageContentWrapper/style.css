@@ -6,6 +6,7 @@
     min-height: 100%;
     background-color: #f8f7f7;
     flex: 1;
+    padding-bottom: 2rem;
 }
 .extraPaddingTop {
     padding-top: 9.25rem;
@@ -19,11 +20,19 @@
         padding-top: 0;
     }
 }
-@media screen and (min-width: 0px) and (max-width: 1679.99px){
+@media screen and (min-width: 775px) and (max-width: 1679.99px){
     .pageContentContainer {
         padding-top: 5.25rem;
     }
     .extraPaddingTop {
         padding-top: 9.25rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 774.99px) {
+    .pageContentContainer {
+        padding-top: 4.25rem;
+    }
+    .extraPaddingTop {
+        padding-top: 4.25rem;
     }
 }
