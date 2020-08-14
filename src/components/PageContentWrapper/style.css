@@ -11,15 +11,24 @@
 .extraPaddingTop {
     padding-top: 9.25rem;
 }
+
 @media screen and (min-width: 1680px) {
     .pageContentContainer {
-        padding-left: 20%;
-        padding-top: 0;
+        padding-top: 3.5rem;
     }
     .extraPaddingTop {
-        padding-top: 0;
+        padding-top: 7.75rem;
     }
 }
+/*@media screen and (min-width: 1680px) {*/
+    /*.pageContentContainer {*/
+        /*padding-left: 20%;*/
+        /*padding-top: 0;*/
+    /*}*/
+    /*.extraPaddingTop {*/
+        /*padding-top: 0;*/
+    /*}*/
+/*}*/
 @media screen and (min-width: 775px) and (max-width: 1679.99px){
     .pageContentContainer {
         padding-top: 5.25rem;

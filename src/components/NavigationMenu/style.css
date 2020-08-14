@@ -6,11 +6,11 @@
     margin: 0;
     align-self: stretch;
 }
-@media screen and (min-width: 1680px) {
-    .navigationMenu {
-        flex-direction: column;
-    }
-}
+/*@media screen and (min-width: 1680px) {*/
+    /*.navigationMenu {*/
+        /*flex-direction: column;*/
+    /*}*/
+/*}*/
 @media screen and (min-width: 0px) and (max-width: 774.99px) {
     .navigationMenu {
         justify-content: center;

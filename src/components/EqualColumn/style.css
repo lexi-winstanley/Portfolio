@@ -11,6 +11,9 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.projectsEqualColumn {
+    padding-right: .75rem;
+}
 @media screen and (min-width: 0px) and (max-width: 774.99px) {
     .resumeColumn {
         padding: 0 1.5rem 1.5rem 1.5rem;
@@ -22,5 +25,8 @@
         flex-direction: column;
         justify-content: space-around;
         flex-basis: 100%;
+    }
+    .projectsEqualColumn {
+        padding-right: 0;
     }
 }

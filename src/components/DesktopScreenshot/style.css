@@ -1,6 +1,6 @@
 .desktopScreenshotContainer {
     flex: 2;
-    padding: 0 10%;
+    padding: .5rem 10%;
 }
 .desktopImagesContainer {
     position: relative;

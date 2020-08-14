@@ -33,3 +33,9 @@
 video {
     width: 100%;
 }
+@media screen and (min-width: 0px) and (max-width: 774.99px) {
+    .screenshotContainer {
+        flex: 1;
+        padding: 0 1rem 0 0;
+    }
+}
