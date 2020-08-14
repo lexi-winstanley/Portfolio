@@ -28,6 +28,9 @@
     margin: 0;
     padding: 0 0 .5rem 0;
 }
+.projectExternalLink {
+    padding: .5rem 0;
+}
 .projectExternalLink a {
     font-size: 1.25rem;
     margin: 0;

@@ -29,6 +29,7 @@ const ProjectsScreen = props => {
                     technicalInfo={project.technicalInfo}
                     technologies={project.technologies}
                     githubLink={project.githubLink}
+                    githubLink2={project.githubLink2}
                     projectLink={project.projectLink}
                     mobileSrc={project.mobileBackgroundSrc}
                     mobileScreenshotSrc={project.mobileScreenshot}
@@ -37,6 +38,7 @@ const ProjectsScreen = props => {
                     desktopScreenshotSrc={project.desktopScreenshot}
                     desktopScreenshotAlt={project.desktopScreenshotAlt}
                     videoSrc={project.videoSrc}
+                    role={project.role}
                 />
             )));
         } else {
@@ -55,6 +57,7 @@ const ProjectsScreen = props => {
                     technicalInfo={project.technicalInfo}
                     technologies={project.technologies}
                     githubLink={project.githubLink}
+                    githubLink2={project.githubLink2}
                     projectLink={project.projectLink}
                     mobileSrc={project.mobileBackgroundSrc}
                     mobileScreenshotSrc={project.mobileScreenshot}
@@ -63,6 +66,7 @@ const ProjectsScreen = props => {
                     desktopScreenshotSrc={project.desktopScreenshot}
                     desktopScreenshotAlt={project.desktopScreenshotAlt}
                     videoSrc={project.videoSrc}
+                    role={project.role}
                 />
             )));
         }
