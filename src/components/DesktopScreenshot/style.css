@@ -29,3 +29,8 @@
     width: 0;
     height: 0;
 }
+@media screen and (min-width: 0px) and (max-width: 599.99px) {
+    .desktopScreenshotContainer {
+        padding: .5rem 0%;
+    }
+}

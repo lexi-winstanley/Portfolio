@@ -16,7 +16,7 @@
     color: #f8f7f7;
     padding-left: .75rem;
 }
-@media screen and (min-width: 0px) and (max-width: 899.99px){
+@media screen and (min-width: 600px) and (max-width: 899.99px){
     .professionalImageContainer {
         flex: .75;
         margin: .5rem 0 0 .75rem;
@@ -26,6 +26,23 @@
         flex: 1;
         color: #f8f7f7;
         padding-right: .75rem;
+        padding-left: 0;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 599.99px){
+    .basicInfo {
+        flex-wrap: wrap;
+    }
+    .professionalImageContainer {
+        flex: .75;
+        margin: 1.5rem 1.5rem .5rem 1.5rem;
+        order: 2;
+        flex-basis: 100%;
+    }
+    .introParagraph {
+        flex: 1;
+        color: #f8f7f7;
+        padding-right: 0rem;
         padding-left: 0;
     }
 }

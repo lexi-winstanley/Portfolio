@@ -79,3 +79,24 @@
     transform: scale(1.25);
     transition: transform 1s;
 }
+@media screen and (min-width: 0px) and (max-width: 599.99px) {
+    .contactInfo {
+        margin: 1rem 0rem 2rem 0rem;
+    }
+    .contactInfo a {
+        padding: 0 0rem;
+    }
+    .contactLinksList {
+        padding: 0 0rem;
+        margin: 1rem 0rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 399.99px) {
+    .contactInfo a {
+        font-size: 1rem;
+    }
+    .contactLink {
+        padding: 0 1rem;
+        font-size: .8rem;
+    }
+}
