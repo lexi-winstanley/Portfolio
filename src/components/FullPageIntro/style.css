@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    padding-top: 3.5rem;
     position: fixed;
     transition: 2s ease-in;
     opacity: 1;
@@ -21,10 +20,10 @@
 }
 .textTitleCentered {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 400;
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +78,25 @@
 #hoverEffect:hover {
     transform: scale(1.25);
     transition: transform 1s;
+}
+
+@media screen and (min-width: 400px) and (max-width: 774.99px) {
+    .textTitleCentered {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .bounce {
+        margin: 1rem 0 4rem 0;
+        font-size: 1.25rem;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 399.99px) {
+    .textTitleCentered {
+        font-size: 1.25rem;
+        padding: .5rem;
+    }
+    .bounce {
+        margin: .5rem 0 4rem 0;
+        font-size: 1rem;
+    }
 }
